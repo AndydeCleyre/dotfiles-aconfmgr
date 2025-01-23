@@ -8,6 +8,7 @@ AddPackage zram-generator # Systemd unit generator for zram devices
 
 AddPackage arch-wiki-lite # Arch Wiki without HTML. 1/9 as big, easily searched & viewable on console
 AddPackage pkgfile # alpm .files metadata explorer
+AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 AddPackage --foreign paru # Feature packed AUR helper
 
@@ -47,6 +48,7 @@ AddPackage bluez-utils # Development and debugging utilities for the bluetooth p
 AddPackage firewalld # Firewall daemon with D-Bus interface
   AddPackage python-pyqt6 # A set of Python bindings for the Qt6 toolkit
 AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
+AddPackage lutris # Open Gaming Platform
 AddPackage meld # Compare files, directories and working copies
 AddPackage mpv # a free, open source, and cross-platform media player
   AddPackage pipewire-jack # Low-latency audio/video router and processor - JACK replacement
@@ -89,6 +91,7 @@ AddPackage kdegraphics-thumbnailers # Thumbnailers for various graphics file for
 AddPackage kdeplasma-addons # All kind of addons to improve your Plasma experience
 AddPackage konversation # A user-friendly and fully-featured IRC client
 AddPackage kscreen # KDE screen management software
+AddPackage merkuro # A calendar application using Akonadi to sync with external services
 AddPackage okular # Document Viewer
 AddPackage papirus-icon-theme # Papirus icon theme
 AddPackage plasma-desktop # KDE Plasma Desktop
@@ -107,13 +110,15 @@ AddPackage --foreign phonon-qt6-mpv # Phonon MPV backend for Qt6
 
 CopyFile /etc/firewalld/zones/home.xml
 CopyFile /etc/keyd/default.conf 640
-printf '%s\n' "LANG=en_US.UTF-8" >"$(CreateFile /etc/locale.conf)"
+printf '%s\n' 'LANG=en_US.UTF-8' >"$(CreateFile /etc/locale.conf)"
 CreateLink /etc/localtime /usr/share/zoneinfo/America/New_York
 CopyFile /etc/makepkg.conf
 CopyFile /etc/makepkg.conf.d/rust.conf
 CopyFile /etc/mkinitcpio.conf
+printf '%s\n' 'options rtw89_pci disable_aspm_l1=y disable_aspm_l1ss' >"$(CreateFile /etc/modprobe.d/70-rtw89.conf 640)"
 CreateLink /etc/os-release ../usr/lib/os-release
 CopyFile /etc/pacman.conf
 CopyFile /etc/subgid
 CopyFile /etc/subuid
 CopyFile /etc/sudoers.d/00_andy 440
+CopyFile /etc/xdg/reflector/reflector.conf
