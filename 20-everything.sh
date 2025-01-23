@@ -25,7 +25,7 @@ AddPackage man-db # A utility for reading man pages
 AddPackage micro # Modern and intuitive terminal-based text editor
 AddPackage ncspot # Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
-AddPackage pastel # A command-line tool to generate, analyze, convert and manipulate colors
+# AddPackage pastel # A command-line tool to generate, analyze, convert and manipulate colors
 AddPackage podman # Tool and library for running OCI-based containers in pods
 AddPackage python-wheezy-template # A lightweight template library
 AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
