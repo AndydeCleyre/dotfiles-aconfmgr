@@ -65,14 +65,16 @@ AddPackage sublime-text # Sublime Text is a sophisticated text editor for code, 
 AddPackage telegram-desktop # Official Telegram Desktop client
   AddPackage webkit2gtk # Web content engine for GTK
 AddPackage trash-cli # Command line trashcan (recycle bin) interface
+AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
+AddPackage --foreign parallel-launcher # Modern N64 Emulator
 # TODO: make AUR pkg ttf-andysevka, containing builds of all:
 IgnorePackage --foreign ttf-iosevka-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 IgnorePackage --foreign ttf-iosevka-quasi-proportional-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 IgnorePackage --foreign ttf-iosevka-term-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 # AddPackage --foreign ttf-andysevka
+AddPackage vokoscreen # Easy to use screencast creator
+  AddPackage gst-plugins-ugly # Multimedia graph framework - ugly plugins (x264)
 AddPackage --foreign zen-browser-bin # Performance oriented Firefox-based web browser
-AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
-AddPackage --foreign parallel-launcher # Modern N64 Emulator
 
 AddPackage wmctrl # Control your EWMH compliant window manager from command line
 AddPackage xclip # Command line interface to the X11 clipboard
