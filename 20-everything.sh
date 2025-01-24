@@ -20,9 +20,10 @@ AddPackage git # the fast distributed version control system
 AddPackage github-cli # The GitHub CLI
 AddPackage highlight # Fast and flexible source code highlighter (CLI version)
 AddPackage htop # Interactive process viewer
+  AddPackage lsof # Lists open files for running Unix processes
+  AddPackage strace # A diagnostic, debugging and instructional userspace tracer
 AddPackage keyd # A key remapping daemon for linux
 AddPackage less # A terminal based program for viewing text files
-AddPackage lsof # Lists open files for running Unix processes
 AddPackage man-db # A utility for reading man pages
 AddPackage micro # Modern and intuitive terminal-based text editor
 AddPackage ncspot # Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
@@ -31,8 +32,8 @@ AddPackage openssh # SSH protocol implementation for remote login, command execu
 AddPackage podman # Tool and library for running OCI-based containers in pods
 AddPackage python-wheezy-template # A lightweight template library
 AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
-AddPackage strace # A diagnostic, debugging and instructional userspace tracer
 AddPackage tealdeer # A fast tldr client in Rust
+AddPackage tig # Text-mode interface for Git.
 AddPackage tmux # Terminal multiplexer
 AddPackage tup # A fast, file-based build system
 AddPackage ugrep # ultra fast grep with interactive TUI, fuzzy search, boolean queries, hexdumps and more
