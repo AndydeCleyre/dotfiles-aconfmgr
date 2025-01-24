@@ -4,6 +4,7 @@ AddPackage base-devel # Basic tools to build Arch Linux packages
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
 AddPackage linux-firmware # Firmware files for Linux
 AddPackage linux-zen # The Linux ZEN kernel and modules
+AddPackage pacman-contrib # Contributed scripts and tools for pacman systems (paccache.timer)
 AddPackage zram-generator # Systemd unit generator for zram devices
 
 AddPackage arch-wiki-lite # Arch Wiki without HTML. 1/9 as big, easily searched & viewable on console
@@ -68,8 +69,6 @@ IgnorePackage --foreign ttf-iosevka-term-custom-git # A slender monospace sans-s
 # AddPackage --foreign ttf-andysevka
 AddPackage --foreign zen-browser-bin # Performance oriented Firefox-based web browser
 AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
-# Will mullvad tray icon work without this?:
-# AddPackage libappindicator-gtk3 # Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library)
 AddPackage --foreign parallel-launcher # Modern N64 Emulator
 
 AddPackage wmctrl # Control your EWMH compliant window manager from command line
@@ -99,7 +98,6 @@ AddPackage plasma5-integration # Qt5 Platform Theme integration plugins for the 
 AddPackage sddm # QML based X11 and Wayland display manager
 AddPackage sddm-kcm # KDE Config Module for SDDM
 AddPackage spectacle # KDE screenshot capture utility
-# AddPackage wireplumber # Session / policy manager implementation for PipeWire
 AddPackage xdg-desktop-portal-gtk # A backend implementation for xdg-desktop-portal using GTK
 AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kompare
 AddPackage --foreign klassy # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
