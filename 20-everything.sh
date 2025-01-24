@@ -14,6 +14,7 @@ AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 AddPackage --foreign paru # Feature packed AUR helper
 
 AddPackage broot # Fuzzy Search + tree + cd
+AddPackage ddgr # DuckDuckGo from the terminal
 AddPackage eza # A modern replacement for ls (community fork of exa)
 AddPackage fzf # Command-line fuzzy finder
 AddPackage git # the fast distributed version control system
