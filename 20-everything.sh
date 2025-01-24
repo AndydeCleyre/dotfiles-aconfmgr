@@ -54,8 +54,6 @@ AddPackage mpv # a free, open source, and cross-platform media player
   AddPackage pipewire-jack # Low-latency audio/video router and processor - JACK replacement
 AddPackage networkmanager # Network connection manager and user applications
 AddPackage pipewire # Low-latency audio/video router and processor
-# AddPackage pipewire-alsa # Low-latency audio/video router and processor - ALSA configuration
-# AddPackage pipewire-pulse # Low-latency audio/video router and processor - PulseAudio replacement
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage steam # Valve's digital software delivery system
   AddPackage ttf-liberation # Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
@@ -83,7 +81,7 @@ AddPackage appmenu-gtk-module # Application Menu GTK+ Module
 AddPackage ark # Archiving Tool
 AddPackage bluedevil # Integrate the Bluetooth technology within KDE workspace and applications
 AddPackage breeze-gtk # Breeze widget theme for GTK 2 and 3
-AddPackage dolphin # KDE File Manager
+# AddPackage dolphin # KDE File Manager
 AddPackage ffmpegthumbs # FFmpeg-based thumbnail creator for video files
 AddPackage kde-gtk-config # Syncs KDE settings to GTK applications
 AddPackage kdeconnect # Adds communication between KDE and your smartphone
@@ -103,6 +101,7 @@ AddPackage sddm-kcm # KDE Config Module for SDDM
 AddPackage spectacle # KDE screenshot capture utility
 # AddPackage wireplumber # Session / policy manager implementation for PipeWire
 AddPackage xdg-desktop-portal-gtk # A backend implementation for xdg-desktop-portal using GTK
+AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kompare
 AddPackage --foreign klassy # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign klassy-qt5 # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign kwin-karousel # KWin tiling script with scrolling
