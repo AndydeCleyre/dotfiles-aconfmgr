@@ -57,6 +57,7 @@ AddPackage mpv # a free, open source, and cross-platform media player
 AddPackage networkmanager # Network connection manager and user applications
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
+AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
 AddPackage steam # Valve's digital software delivery system
   AddPackage ttf-liberation # Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
 AddPackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
@@ -86,6 +87,7 @@ AddPackage ffmpegthumbs # FFmpeg-based thumbnail creator for video files
 AddPackage kde-gtk-config # Syncs KDE settings to GTK applications
 AddPackage kdeconnect # Adds communication between KDE and your smartphone
 AddPackage kdegraphics-thumbnailers # Thumbnailers for various graphics file formats
+AddPackage kdepim-addons # Addons for KDE PIM applications (calendar events in applet)
 AddPackage kdeplasma-addons # All kind of addons to improve your Plasma experience
 AddPackage konversation # A user-friendly and fully-featured IRC client
 AddPackage kscreen # KDE screen management software
