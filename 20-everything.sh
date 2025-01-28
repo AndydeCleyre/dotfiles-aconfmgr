@@ -1,4 +1,8 @@
-# -- Packages: Base --
+# --------------
+# -- Packages --
+# --------------
+
+# -- Base --
 AddPackage amd-ucode # Microcode update image for AMD CPUs
 AddPackage base # Minimal package set to define a basic Arch Linux installation
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
@@ -6,7 +10,7 @@ AddPackage linux-firmware # Firmware files for Linux
 AddPackage linux-zen # The Linux ZEN kernel and modules
 AddPackage zram-generator # Systemd unit generator for zram devices
 
-# -- Packages: Arch Helpers --
+# -- Arch Helpers --
 AddPackage arch-wiki-lite # Arch Wiki without HTML. 1/9 as big, easily searched & viewable on console
 AddPackage base-devel # Basic tools to build Arch Linux packages
 AddPackage pacman-contrib # Contributed scripts and tools for pacman systems (paccache.timer, pacdiff)
@@ -16,7 +20,7 @@ AddPackage reflector # A Python 3 module and script to retrieve and filter the l
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 AddPackage --foreign paru # Feature packed AUR helper
 
-# -- Packages: CLI --
+# -- CLI --
 AddPackage broot # Fuzzy Search + tree + cd
 AddPackage ddgr # DuckDuckGo from the terminal
 AddPackage eza # A modern replacement for ls (community fork of exa)
@@ -53,7 +57,7 @@ AddPackage --foreign mise # The front-end to your dev env
   AddPackage --foreign usage # A specification for CLIs
 AddPackage --foreign rescrobbled-git # Music scrobbler daemon using the MPRIS D-Bus interface.
 
-# -- Packages: Any Desktop --
+# -- Any Desktop --
 AddPackage bluez-obex # Object Exchange daemon for sharing content
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 AddPackage firewalld # Firewall daemon with D-Bus interface
@@ -94,14 +98,14 @@ AddPackage --foreign ttf-maple-beta # Open source monospace font with round corn
 AddPackage --foreign ttf-sudo # A font for programmers and command line users
 AddPackage --foreign zen-browser-bin # Performance oriented Firefox-based web browser
 
-# -- Packages: X11 Desktop --
+# -- X11 Desktop --
 AddPackage wmctrl # Control your EWMH compliant window manager from command line
 AddPackage xclip # Command line interface to the X11 clipboard
 AddPackage xdotool # Command-line X11 automation tool
 
 AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust (built for X11)
 
-# -- Packages: KDE Plasma Desktop --
+# -- KDE Plasma Desktop --
 AddPackage appmenu-gtk-module # Application Menu GTK+ Module
 AddPackage ark # Archiving Tool
 AddPackage bluedevil # Integrate the Bluetooth technology within KDE workspace and applications
@@ -137,18 +141,30 @@ AddPackage --foreign kwin-karousel # KWin tiling script with scrolling
 AddPackage --foreign phonon-qt6-mpv # Phonon MPV backend for Qt6
 AddPackage --foreign plasma6-applets-panel-colorizer # Latte-Dock and WM status bar customization features for the default Plasma panels
 
+# -----------
 # -- Files --
+# -----------
+
+CreateLink /etc/localtime /usr/share/zoneinfo/America/New_York
+CreateLink /etc/os-release ../usr/lib/os-release
+
 CopyFile /etc/firewalld/zones/home.xml
 CopyFile /etc/keyd/default.conf 640
-printf '%s\n' 'LANG=en_US.UTF-8' >"$(CreateFile /etc/locale.conf)"
-CreateLink /etc/localtime /usr/share/zoneinfo/America/New_York
 CopyFile /etc/makepkg.conf
 CopyFile /etc/makepkg.conf.d/rust.conf
 CopyFile /etc/mkinitcpio.conf
-printf '%s\n' 'options rtw89_pci disable_aspm_l1=y disable_aspm_l1ss' >"$(CreateFile /etc/modprobe.d/70-rtw89.conf 640)"
-CreateLink /etc/os-release ../usr/lib/os-release
 CopyFile /etc/pacman.conf
+
+printf '%s\n' 'LANG=en_US.UTF-8' >"$(CreateFile /etc/locale.conf)"
 printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subgid)"
 printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subuid)"
 printf '%s\n' 'andy ALL=(ALL) ALL' >"$(CreateFile /etc/sudoers.d/00_andy 440)"
 printf '%s\n' '---country US,CA' >>"$(GetPackageOriginalFile reflector /etc/xdg/reflector/reflector.conf)"
+
+# -- Disable power-saving mode for wifi, for stability --
+<<EOF cat >"$(CreateFile /etc/modprobe.d/70-rtw89.conf 640)"
+options rtw89_pci disable_aspm_l1=y disable_aspm_l1ss=y
+options rtw89pci disable_aspm_l1=y disable_aspm_l1ss=y
+options rtw89_core disable_ps_mode=y
+options rtw89core disable_ps_mode=y
+EOF
