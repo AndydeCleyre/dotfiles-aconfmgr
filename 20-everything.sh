@@ -1,18 +1,22 @@
+# -- Packages: Base --
 AddPackage amd-ucode # Microcode update image for AMD CPUs
 AddPackage base # Minimal package set to define a basic Arch Linux installation
-AddPackage base-devel # Basic tools to build Arch Linux packages
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
 AddPackage linux-firmware # Firmware files for Linux
 AddPackage linux-zen # The Linux ZEN kernel and modules
-AddPackage pacman-contrib # Contributed scripts and tools for pacman systems (paccache.timer)
 AddPackage zram-generator # Systemd unit generator for zram devices
 
+# -- Packages: Arch Helpers --
 AddPackage arch-wiki-lite # Arch Wiki without HTML. 1/9 as big, easily searched & viewable on console
-AddPackage pkgfile # alpm .files metadata explorer
+AddPackage base-devel # Basic tools to build Arch Linux packages
+AddPackage pacman-contrib # Contributed scripts and tools for pacman systems (paccache.timer, pacdiff)
+AddPackage pkgfile # alpm .files metadata explorer (command-not-found)
 AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 AddPackage --foreign paru # Feature packed AUR helper
 
+# -- Packages: CLI --
 AddPackage broot # Fuzzy Search + tree + cd
 AddPackage ddgr # DuckDuckGo from the terminal
 AddPackage eza # A modern replacement for ls (community fork of exa)
@@ -33,6 +37,7 @@ AddPackage openssh # SSH protocol implementation for remote login, command execu
 # AddPackage pastel # A command-line tool to generate, analyze, convert and manipulate colors
 AddPackage podman # Tool and library for running OCI-based containers in pods
 AddPackage python-wheezy-template # A lightweight template library
+AddPackage rsync # A fast and versatile file copying tool for remote and local files
 AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
 AddPackage tealdeer # A fast tldr client in Rust
 AddPackage tig # Text-mode interface for Git.
@@ -43,15 +48,18 @@ AddPackage uv # An extremely fast Python package installer and resolver written 
 AddPackage yadm # Yet Another Dotfiles Manager
 AddPackage yt-dlp # A youtube-dl fork with additional features and fixes
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
+
 AddPackage --foreign mise # The front-end to your dev env
   AddPackage --foreign usage # A specification for CLIs
 AddPackage --foreign rescrobbled-git # Music scrobbler daemon using the MPRIS D-Bus interface.
 
+# -- Packages: Any Desktop --
 AddPackage bluez-obex # Object Exchange daemon for sharing content
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 AddPackage firewalld # Firewall daemon with D-Bus interface
   AddPackage python-pyqt6 # A set of Python bindings for the Qt6 toolkit
 AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
+AddPackage kodi # A software media player and entertainment hub for digital media (gl renderer)
 AddPackage lutris # Open Gaming Platform
 AddPackage meld # Compare files, directories and working copies
 AddPackage mpv # a free, open source, and cross-platform media player
@@ -66,26 +74,40 @@ AddPackage sublime-text # Sublime Text is a sophisticated text editor for code, 
 AddPackage telegram-desktop # Official Telegram Desktop client
   AddPackage webkit2gtk # Web content engine for GTK
 AddPackage trash-cli # Command line trashcan (recycle bin) interface
+AddPackage ttf-0xproto-nerd # Patched font 0xProto from nerd fonts library
+AddPackage vokoscreen # Easy to use screencast creator
+  AddPackage gst-plugins-ugly # Multimedia graph framework - ugly plugins (x264)
+
+AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
+AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
 AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
 AddPackage --foreign parallel-launcher # Modern N64 Emulator
-# TODO: make AUR pkg ttf-andysevka, containing builds of all:
+AddPackage --foreign qview # qView is a Qt image viewer designed with minimalism and usability in mind.
+  AddPackage kimageformats # Image format plugins for Qt 6
+    AddPackage libheif # An HEIF and AVIF file format decoder and encoder
+# AddPackage --foreign ttf-andysevka
+# TODO: make AUR pkg ttf-andysevka, containing builds of these three:
 IgnorePackage --foreign ttf-iosevka-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 IgnorePackage --foreign ttf-iosevka-quasi-proportional-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 IgnorePackage --foreign ttf-iosevka-term-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
-# AddPackage --foreign ttf-andysevka
-AddPackage vokoscreen # Easy to use screencast creator
-  AddPackage gst-plugins-ugly # Multimedia graph framework - ugly plugins (x264)
+AddPackage --foreign ttf-maple-beta # Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line
+AddPackage --foreign ttf-sudo # A font for programmers and command line users
 AddPackage --foreign zen-browser-bin # Performance oriented Firefox-based web browser
 
+# -- Packages: X11 Desktop --
 AddPackage wmctrl # Control your EWMH compliant window manager from command line
 AddPackage xclip # Command line interface to the X11 clipboard
 AddPackage xdotool # Command-line X11 automation tool
+
 AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust (built for X11)
 
+# -- Packages: KDE Plasma Desktop --
 AddPackage appmenu-gtk-module # Application Menu GTK+ Module
 AddPackage ark # Archiving Tool
 AddPackage bluedevil # Integrate the Bluetooth technology within KDE workspace and applications
 AddPackage breeze-gtk # Breeze widget theme for GTK 2 and 3
+AddPackage discover # KDE and Plasma resources management GUI
+  AddPackage fwupd # Simple daemon to allow session software to update firmware
 # AddPackage dolphin # KDE File Manager
 AddPackage ffmpegthumbs # FFmpeg-based thumbnail creator for video files
 AddPackage kde-gtk-config # Syncs KDE settings to GTK applications
@@ -93,6 +115,7 @@ AddPackage kdeconnect # Adds communication between KDE and your smartphone
 AddPackage kdegraphics-thumbnailers # Thumbnailers for various graphics file formats
 AddPackage kdepim-addons # Addons for KDE PIM applications (calendar events in applet)
 AddPackage kdeplasma-addons # All kind of addons to improve your Plasma experience
+AddPackage kinfocenter # A utility that provides information about a computer system
 AddPackage konversation # A user-friendly and fully-featured IRC client
 AddPackage kscreen # KDE screen management software
 AddPackage merkuro # A calendar application using Akonadi to sync with external services
@@ -106,12 +129,15 @@ AddPackage sddm # QML based X11 and Wayland display manager
 AddPackage sddm-kcm # KDE Config Module for SDDM
 AddPackage spectacle # KDE screenshot capture utility
 AddPackage xdg-desktop-portal-gtk # A backend implementation for xdg-desktop-portal using GTK
+
 AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kompare
 AddPackage --foreign klassy # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign klassy-qt5 # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign kwin-karousel # KWin tiling script with scrolling
 AddPackage --foreign phonon-qt6-mpv # Phonon MPV backend for Qt6
+AddPackage --foreign plasma6-applets-panel-colorizer # Latte-Dock and WM status bar customization features for the default Plasma panels
 
+# -- Files --
 CopyFile /etc/firewalld/zones/home.xml
 CopyFile /etc/keyd/default.conf 640
 printf '%s\n' 'LANG=en_US.UTF-8' >"$(CreateFile /etc/locale.conf)"
@@ -122,7 +148,7 @@ CopyFile /etc/mkinitcpio.conf
 printf '%s\n' 'options rtw89_pci disable_aspm_l1=y disable_aspm_l1ss' >"$(CreateFile /etc/modprobe.d/70-rtw89.conf 640)"
 CreateLink /etc/os-release ../usr/lib/os-release
 CopyFile /etc/pacman.conf
-CopyFile /etc/subgid
-CopyFile /etc/subuid
-CopyFile /etc/sudoers.d/00_andy 440
-CopyFile /etc/xdg/reflector/reflector.conf
+printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subgid)"
+printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subuid)"
+printf '%s\n' 'andy ALL=(ALL) ALL' >"$(CreateFile /etc/sudoers.d/00_andy 440)"
+printf '%s\n' '---country US,CA' >>"$(GetPackageOriginalFile reflector /etc/xdg/reflector/reflector.conf)"
