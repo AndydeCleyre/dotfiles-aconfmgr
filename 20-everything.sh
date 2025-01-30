@@ -42,6 +42,7 @@ AddPackage openssh # SSH protocol implementation for remote login, command execu
 AddPackage podman # Tool and library for running OCI-based containers in pods
 AddPackage python-wheezy-template # A lightweight template library
 AddPackage rsync # A fast and versatile file copying tool for remote and local files
+AddPackage rust # Systems programming language focused on safety, speed and concurrency (cargo)
 AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
 AddPackage tealdeer # A fast tldr client in Rust
 AddPackage tig # Text-mode interface for Git.
