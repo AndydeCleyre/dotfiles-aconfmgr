@@ -69,6 +69,7 @@ AddPackage meld # Compare files, directories and working copies
 AddPackage mpv # a free, open source, and cross-platform media player
   AddPackage pipewire-jack # Low-latency audio/video router and processor - JACK replacement
 AddPackage networkmanager # Network connection manager and user applications
+  AddPackage iwd # Internet Wireless Daemon
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
@@ -156,6 +157,7 @@ CopyFile /etc/mkinitcpio.conf
 CopyFile /etc/pacman.conf
 
 printf '%s\n' 'LANG=en_US.UTF-8' >"$(CreateFile /etc/locale.conf)"
+printf '%s\n' '[device]' 'wifi.backend=iwd' >"$(CreateFile /etc/NetworkManager/conf.d/wifi_backend.conf 640)"
 printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subgid)"
 printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subuid)"
 printf '%s\n' 'andy ALL=(ALL) ALL' >"$(CreateFile /etc/sudoers.d/00_andy 440)"
