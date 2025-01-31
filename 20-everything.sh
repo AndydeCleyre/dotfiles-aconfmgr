@@ -68,6 +68,7 @@ AddPackage kodi # A software media player and entertainment hub for digital medi
 AddPackage lutris # Open Gaming Platform
 AddPackage meld # Compare files, directories and working copies
 AddPackage mpv # a free, open source, and cross-platform media player
+  AddPackage mpv-mpris # MPRIS plugin for mpv
   AddPackage pipewire-jack # Low-latency audio/video router and processor - JACK replacement
 AddPackage networkmanager # Network connection manager and user applications
   AddPackage iwd # Internet Wireless Daemon
@@ -83,6 +84,7 @@ AddPackage trash-cli # Command line trashcan (recycle bin) interface
 AddPackage ttf-0xproto-nerd # Patched font 0xProto from nerd fonts library
 AddPackage vokoscreen # Easy to use screencast creator
   AddPackage gst-plugins-ugly # Multimedia graph framework - ugly plugins (x264)
+AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 
 AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
 AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
