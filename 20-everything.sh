@@ -63,7 +63,7 @@ AddPackage bluez-obex # Object Exchange daemon for sharing content
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 AddPackage firewalld # Firewall daemon with D-Bus interface
   AddPackage python-pyqt6 # A set of Python bindings for the Qt6 toolkit
-AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
+# AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
 AddPackage kodi # A software media player and entertainment hub for digital media (gl renderer)
 AddPackage lutris # Open Gaming Platform
 AddPackage meld # Compare files, directories and working copies
@@ -84,6 +84,7 @@ AddPackage trash-cli # Command line trashcan (recycle bin) interface
 AddPackage ttf-0xproto-nerd # Patched font 0xProto from nerd fonts library
 AddPackage vokoscreen # Easy to use screencast creator
   AddPackage gst-plugins-ugly # Multimedia graph framework - ugly plugins (x264)
+AddPackage wezterm # A GPU-accelerated cross-platform terminal emulator and multiplexer
 AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 
 AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
@@ -142,6 +143,7 @@ AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kom
 AddPackage --foreign klassy # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign klassy-qt5 # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign kwin-karousel # KWin tiling script with scrolling
+AddPackage --foreign libinput-gestures # Actions gestures on your touchpad using libinput
 AddPackage --foreign phonon-qt6-mpv # Phonon MPV backend for Qt6
 AddPackage --foreign plasma6-applets-panel-colorizer # Latte-Dock and WM status bar customization features for the default Plasma panels
 
