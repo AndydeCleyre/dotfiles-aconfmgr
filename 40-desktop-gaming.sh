@@ -3,6 +3,7 @@ AddPackage steam # Valve's digital software delivery system
 
 AddPackage --foreign parallel-launcher # Modern N64 Emulator
 AddPackage --foreign wiiudownloader # Allows to download encrypted wiiu files from nintendo's official servers
+AddPackage --foreign xemu-bin # Original Xbox Emulator
 
 # -- Oddworld NnT --
 AddPackage --foreign minigalaxy # A simple GOG client for Linux
@@ -11,4 +12,4 @@ AddPackage lib32-libxcursor # X cursor management library (32-bit)
 AddPackage lib32-sdl2-compat # An SDL2 compatibility layer that uses SDL3 behind the scenes - 32-bit
 
 # -- via flatpak --
-# cemu
+# cemu (or maybe use cemu-bin?)
