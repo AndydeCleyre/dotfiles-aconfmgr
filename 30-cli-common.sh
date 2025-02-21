@@ -26,6 +26,7 @@ AddPackage podman # Tool and library for running OCI-based containers in pods
   printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subgid)"
   printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subuid)"
 AddPackage python-wheezy-template # A lightweight template library
+AddPackage rage-encryption # Rust implementation of the age encryption tool
 AddPackage rsync # A fast and versatile file copying tool for remote and local files
 AddPackage rust # Systems programming language focused on safety, speed and concurrency (cargo)
 AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
@@ -42,3 +43,4 @@ AddPackage zsh # A very advanced and programmable command interpreter (shell) fo
 
 AddPackage --foreign gat # Cat alternative written in Go.
 AddPackage --foreign rescrobbled-git # Music scrobbler daemon using the MPRIS D-Bus interface.
+AddPackage --foreign yage # manage encrypted secrets in YAML files with age encryption
