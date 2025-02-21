@@ -1,4 +1,5 @@
 # -- Any Desktop --
+AddPackage audacious # Lightweight, advanced audio player focused on audio quality
 AddPackage bluez-obex # Object Exchange daemon for sharing content
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 AddPackage firewalld # Firewall daemon with D-Bus interface
