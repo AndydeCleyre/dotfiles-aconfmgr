@@ -17,6 +17,8 @@ AddPackage less # A terminal based program for viewing text files
 AddPackage lnav # A curses-based tool for viewing and analyzing log files
 AddPackage man-db # A utility for reading man pages
 AddPackage micro # Modern and intuitive terminal-based text editor
+AddPackage mise # The front-end to your dev env
+  AddPackage usage # A specification for CLIs
 AddPackage ncspot # Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
 # AddPackage pastel # A command-line tool to generate, analyze, convert and manipulate colors
@@ -39,6 +41,4 @@ AddPackage yt-dlp # A youtube-dl fork with additional features and fixes
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
 
 AddPackage --foreign gat # Cat alternative written in Go.
-AddPackage --foreign mise # The front-end to your dev env
-  AddPackage --foreign usage # A specification for CLIs
 AddPackage --foreign rescrobbled-git # Music scrobbler daemon using the MPRIS D-Bus interface.
