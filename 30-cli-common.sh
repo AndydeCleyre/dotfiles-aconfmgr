@@ -40,6 +40,7 @@ AddPackage uv # An extremely fast Python package installer and resolver written 
 AddPackage yadm # Yet Another Dotfiles Manager
 AddPackage yt-dlp # A youtube-dl fork with additional features and fixes
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
+  AddPackage git-zsh-completion # the fast distributed version control system
 
 AddPackage --foreign gat # Cat alternative written in Go.
 AddPackage --foreign rescrobbled-git # Music scrobbler daemon using the MPRIS D-Bus interface.
