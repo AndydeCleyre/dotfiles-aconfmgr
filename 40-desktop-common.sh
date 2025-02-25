@@ -29,6 +29,7 @@ AddPackage wezterm # A GPU-accelerated cross-platform terminal emulator and mult
 AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 
 AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
+AddPackage --foreign blobdrop-git # Drag and drop files directly out of the terminal
 AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
 AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
 AddPackage --foreign qview # qView is a Qt image viewer designed with minimalism and usability in mind.
