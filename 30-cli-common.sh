@@ -23,6 +23,7 @@ AddPackage ncspot # Cross-platform ncurses Spotify client written in Rust, inspi
 AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
 AddPackage ouch # A command line utility for easily compressing and decompressing files and directories
 # AddPackage pastel # A command-line tool to generate, analyze, convert and manipulate colors
+AddPackage plocate # Alternative to locate, faster and compatible with mlocate's database.
 AddPackage podman # Tool and library for running OCI-based containers in pods
   printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subgid)"
   printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subuid)"
