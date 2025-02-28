@@ -8,7 +8,7 @@ AddPackage firewalld # Firewall daemon with D-Bus interface
 AddPackage flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)
 AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
 AddPackage handbrake # Multithreaded video transcoder
-# AddPackage kodi # A software media player and entertainment hub for digital media (gl renderer)
+AddPackage kodi # A software media player and entertainment hub for digital media (gl renderer)
 AddPackage meld # Compare files, directories and working copies
 AddPackage mpv # a free, open source, and cross-platform media player
   AddPackage mpv-mpris # MPRIS plugin for mpv
@@ -44,9 +44,6 @@ IgnorePackage --foreign ttf-iosevka-term-custom-git # A slender monospace sans-s
 AddPackage --foreign ttf-maple-beta # Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line
 AddPackage --foreign ttf-sudo # A font for programmers and command line users
 AddPackage --foreign zen-browser-bin # Performance oriented Firefox-based web browser
-
-# -- via flatpak --
-# kodi
 
 # -- X11 Desktop --
 AddPackage wmctrl # Control your EWMH compliant window manager from command line
