@@ -1,4 +1,5 @@
 AddPackage broot # Fuzzy Search + tree + cd
+AddPackage buildah # A tool which facilitates building OCI images
 AddPackage ddgr # DuckDuckGo from the terminal
 AddPackage eza # A modern replacement for ls (community fork of exa)
 AddPackage firewalld # Firewall daemon with D-Bus interface
