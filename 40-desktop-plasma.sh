@@ -29,6 +29,7 @@ AddPackage sddm-kcm # KDE Config Module for SDDM
 AddPackage spectacle # KDE screenshot capture utility
 
 AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kompare
+AddPackage --foreign fluent-icon-theme-git # A Fluent design icon theme
 AddPackage --foreign klassy # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign klassy-qt5 # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign kwin-karousel # KWin tiling script with scrolling
