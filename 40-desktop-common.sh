@@ -23,6 +23,7 @@ AddPackage telegram-desktop # Official Telegram Desktop client
   AddPackage webkit2gtk # Web content engine for GTK
 AddPackage trash-cli # Command line trashcan (recycle bin) interface
 AddPackage ttf-0xproto-nerd # Patched font 0xProto from nerd fonts library
+AddPackage ttf-nerd-fonts-symbols-mono # High number of extra glyphs from popular 'iconic fonts' (monospace)
 AddPackage vokoscreen # Easy to use screencast creator
   AddPackage gst-plugins-ugly # Multimedia graph framework - ugly plugins (x264)
 AddPackage wezterm # A GPU-accelerated cross-platform terminal emulator and multiplexer
