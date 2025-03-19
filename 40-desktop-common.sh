@@ -42,6 +42,7 @@ AddPackage --foreign ttf-fluent-emoji # fluent-emoji by Microsoft
 IgnorePackage --foreign ttf-iosevka-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 IgnorePackage --foreign ttf-iosevka-quasi-proportional-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 IgnorePackage --foreign ttf-iosevka-term-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
+AddPackage --foreign ttf-0xproto # An opinionated font for software engineers
 AddPackage --foreign ttf-maple-beta # Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line
 AddPackage --foreign ttf-sudo # A font for programmers and command line users
 AddPackage --foreign zen-browser-bin # Performance oriented Firefox-based web browser
