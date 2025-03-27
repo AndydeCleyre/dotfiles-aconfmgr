@@ -1,5 +1,4 @@
 # -- Any Desktop --
-AddPackage audacious # Lightweight, advanced audio player focused on audio quality
 AddPackage bluez-obex # Object Exchange daemon for sharing content
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 AddPackage firewalld # Firewall daemon with D-Bus interface
@@ -18,6 +17,9 @@ AddPackage networkmanager # Network connection manager and user applications
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
+AddPackage strawberry # A music player aimed at audio enthusiasts and music collectors
+  AddPackage gst-plugin-spotify # Multimedia graph framework - spotify plugin
+  AddPackage gst-plugins-bad # Multimedia graph framework - bad plugins
 AddPackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 AddPackage telegram-desktop # Official Telegram Desktop client
   AddPackage webkit2gtk # Web content engine for GTK
@@ -34,6 +36,7 @@ AddPackage --foreign blobdrop-git # Drag and drop files directly out of the term
 # AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
   AddPackage --foreign gtkglext # An OpenGL extension to GTK2.
 AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
+AddPackage --foreign onlyoffice-bin # An office suite that combines text, spreadsheet and presentation editors
 AddPackage --foreign qview # qView is a Qt image viewer designed with minimalism and usability in mind.
   AddPackage kimageformats # Image format plugins for Qt 6
     AddPackage libheif # An HEIF and AVIF file format decoder and encoder
@@ -47,6 +50,7 @@ AddPackage --foreign ttf-0xproto # An opinionated font for software engineers
 AddPackage --foreign ttf-maple-beta # Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line
 AddPackage --foreign ttf-sudo # A font for programmers and command line users
 AddPackage --foreign zen-browser-bin # Performance oriented Firefox-based web browser
+  AddPackage --foreign vdhcoapp # Companion application for Video DownloadHelper browser add-on
 
 # -- X11 Desktop --
 AddPackage wmctrl # Control your EWMH compliant window manager from command line
