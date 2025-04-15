@@ -46,7 +46,6 @@ AddPackage zsh # A very advanced and programmable command interpreter (shell) fo
   AddPackage git-zsh-completion # the fast distributed version control system
   AddPackage zsh-completions # Additional completion definitions for Zsh
 
-AddPackage --foreign gat # Cat alternative written in Go.
 AddPackage --foreign podlet # Generate podman quadlet (systemd-like) files from a podman command
 AddPackage --foreign rescrobbled-git # Music scrobbler daemon using the MPRIS D-Bus interface.
 AddPackage --foreign yage # manage encrypted secrets in YAML files with age encryption
