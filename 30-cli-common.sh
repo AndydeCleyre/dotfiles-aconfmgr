@@ -44,6 +44,7 @@ AddPackage yadm # Yet Another Dotfiles Manager
 AddPackage yt-dlp # A youtube-dl fork with additional features and fixes
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
   AddPackage git-zsh-completion # the fast distributed version control system
+  AddPackage zsh-completions # Additional completion definitions for Zsh
 
 AddPackage --foreign gat # Cat alternative written in Go.
 AddPackage --foreign podlet # Generate podman quadlet (systemd-like) files from a podman command
