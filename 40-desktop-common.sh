@@ -17,6 +17,7 @@ AddPackage networkmanager # Network connection manager and user applications
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
+AddPackage rio # A hardware-accelerated GPU terminal emulator powered by WebGPU
 AddPackage strawberry # A music player aimed at audio enthusiasts and music collectors
   AddPackage gst-plugin-spotify # Multimedia graph framework - spotify plugin
   AddPackage gst-plugins-bad # Multimedia graph framework - bad plugins
@@ -28,7 +29,6 @@ AddPackage ttf-0xproto-nerd # Patched font 0xProto from nerd fonts library
 AddPackage ttf-nerd-fonts-symbols-mono # High number of extra glyphs from popular 'iconic fonts' (monospace)
 AddPackage vokoscreen # Easy to use screencast creator
   AddPackage gst-plugins-ugly # Multimedia graph framework - ugly plugins (x264)
-AddPackage wezterm # A GPU-accelerated cross-platform terminal emulator and multiplexer
 AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 
 AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
