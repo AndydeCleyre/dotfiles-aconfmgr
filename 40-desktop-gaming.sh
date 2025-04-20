@@ -3,7 +3,7 @@ AddPackage steam # Valve's digital software delivery system
 
 AddPackage --foreign cemu # Software to emulate Wii U games and applications on PC
   AddPackage --foreign wiiudownloader # Allows to download encrypted wiiu files from nintendo's official servers
-AddPackage --foreign heroic-games-launcher # Native GOG, Epic Games and Amazon games launcher for Linux
+AddPackage --foreign heroic-games-launcher-bin # An Open source Launcher for Epic, Amazon and GOG Games
 AddPackage --foreign parallel-launcher # Modern N64 Emulator
   AddPackage fuse2 # Interface for userspace programs to export a filesystem to the Linux kernel
 AddPackage --foreign xemu-bin # Original Xbox Emulator
