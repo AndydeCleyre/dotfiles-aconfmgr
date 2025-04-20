@@ -21,6 +21,7 @@ AddPackage micro # Modern and intuitive terminal-based text editor
 AddPackage mise # The front-end to your dev env
   AddPackage usage # A specification for CLIs
 AddPackage ncspot # Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+  AddPackage ueberzug # Command line util which allows to display images in combination with X11
 AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
 AddPackage ouch # A command line utility for easily compressing and decompressing files and directories
 # AddPackage pastel # A command-line tool to generate, analyze, convert and manipulate colors
