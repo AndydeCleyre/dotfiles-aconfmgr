@@ -37,5 +37,6 @@ AddPackage --foreign klassy # Highly customizable binary Window Decoration, Appl
 AddPackage --foreign klassy-qt5 # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign kwin-karousel # KWin tiling script with scrolling
 AddPackage --foreign libinput-gestures # Actions gestures on your touchpad using libinput
+AddPackage --foreign plasma-hud-git # Provides a way to run menubar commands through rofi, much like the Unity 7 Heads-Up Display (HUD).
 AddPackage --foreign plasma6-applets-panel-colorizer # Latte-Dock and WM status bar customization features for the default Plasma panels
 AddPackage --foreign plasma6-applets-plasmusic-toolbar # Widget that shows currently playing song information and provide playback controls.

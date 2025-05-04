@@ -1,6 +1,7 @@
 # -- Any Desktop --
 AddPackage bluez-obex # Object Exchange daemon for sharing content
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
+AddPackage earlyoom # Early OOM Daemon for Linux
 AddPackage firewalld # Firewall daemon with D-Bus interface
   AddPackage python-pyqt6 # A set of Python bindings for the Qt6 toolkit
   CopyFile /etc/firewalld/zones/home.xml
@@ -22,7 +23,7 @@ AddPackage strawberry # A music player aimed at audio enthusiasts and music coll
   AddPackage gst-plugins-bad # Multimedia graph framework - bad plugins
 AddPackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 AddPackage telegram-desktop # Official Telegram Desktop client
-  AddPackage webkit2gtk # Web content engine for GTK
+  AddPackage hunspell-en_us # US English hunspell dictionaries
 AddPackage trash-cli # Command line trashcan (recycle bin) interface
 AddPackage ttf-0xproto-nerd # Patched font 0xProto from nerd fonts library
 AddPackage ttf-nerd-fonts-symbols-mono # High number of extra glyphs from popular 'iconic fonts' (monospace)
@@ -34,6 +35,7 @@ AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
 AddPackage --foreign blobdrop-git # Drag and drop files directly out of the terminal
 # AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
   AddPackage --foreign gtkglext # An OpenGL extension to GTK2.
+AddPackage --foreign librewolf-bin # Community-maintained fork of Firefox, focused on privacy, security and freedom.
 AddPackage --foreign maplemono-ttf # Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line
 AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
 AddPackage --foreign onlyoffice-bin # An office suite that combines text, spreadsheet and presentation editors
@@ -48,7 +50,6 @@ IgnorePackage --foreign ttf-iosevka-quasi-proportional-custom-git # A slender mo
 IgnorePackage --foreign ttf-iosevka-term-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 AddPackage --foreign ttf-0xproto # An opinionated font for software engineers
 AddPackage --foreign ttf-sudo # A font for programmers and command line users
-AddPackage --foreign zen-browser-bin # Performance oriented Firefox-based web browser
   AddPackage --foreign vdhcoapp # Companion application for Video DownloadHelper browser add-on
 
 # -- X11 Desktop --

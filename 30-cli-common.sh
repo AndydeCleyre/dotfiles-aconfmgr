@@ -7,6 +7,7 @@ AddPackage fzf # Command-line fuzzy finder
 AddPackage fwupd # Simple daemon to allow session software to update firmware
 AddPackage git # the fast distributed version control system
 AddPackage github-cli # The GitHub CLI
+AddPackage gum # A tool for glamorous shell scripts
 AddPackage highlight # Fast and flexible source code highlighter (CLI version)
 AddPackage htop # Interactive process viewer
   AddPackage lsof # Lists open files for running Unix processes
@@ -42,7 +43,7 @@ AddPackage tup # A fast, file-based build system
 AddPackage ugrep # ultra fast grep with interactive TUI, fuzzy search, boolean queries, hexdumps and more
 AddPackage uv # An extremely fast Python package installer and resolver written in Rust
 AddPackage yadm # Yet Another Dotfiles Manager
-# AddPackage yt-dlp # A youtube-dl fork with additional features and fixes
+AddPackage yt-dlp # A youtube-dl fork with additional features and fixes
 #   Prefer: pipz install 'yt-dlp[default,curl-cffi]'
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
   AddPackage zsh-completions # Additional completion definitions for Zsh
