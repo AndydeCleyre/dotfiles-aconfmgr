@@ -8,6 +8,8 @@ AddPackage firewalld # Firewall daemon with D-Bus interface
 # AddPackage flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)
 AddPackage handbrake # Multithreaded video transcoder
 AddPackage kodi # A software media player and entertainment hub for digital media (gl renderer)
+AddPackage ly # TUI display manager
+  AddPackage xorg-xauth # X.Org authorization settings program
 AddPackage meld # Compare files, directories and working copies
 AddPackage mpv # a free, open source, and cross-platform media player
   AddPackage mpv-mpris # MPRIS plugin for mpv
@@ -17,7 +19,7 @@ AddPackage networkmanager # Network connection manager and user applications
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
-AddPackage rio # A hardware-accelerated GPU terminal emulator powered by WebGPU
+# AddPackage rio # A hardware-accelerated GPU terminal emulator powered by WebGPU
 AddPackage strawberry # A music player aimed at audio enthusiasts and music collectors
   AddPackage gst-plugin-spotify # Multimedia graph framework - spotify plugin
   AddPackage gst-plugins-bad # Multimedia graph framework - bad plugins
@@ -58,3 +60,6 @@ AddPackage xclip # Command line interface to the X11 clipboard
 AddPackage xdotool # Command-line X11 automation tool
 
 AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust (built for X11)
+
+# -- Files --
+sed -Ei 's/^(animation = ).*/\1matrix/' "$(GetPackageOriginalFile ly /etc/ly/config.ini)"

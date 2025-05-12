@@ -30,7 +30,7 @@ printf '%s\n' 'LANG=en_US.UTF-8'                        >"$(CreateFile /etc/loca
 printf '%s\n' '[device]' 'wifi.backend=iwd'             >"$(CreateFile /etc/NetworkManager/conf.d/wifi_backend.conf 640)"
 printf '%s\n' 'andy ALL=(ALL) ALL'                      >"$(CreateFile /etc/sudoers.d/00_andy 440)"
 printf '%s\n' 'blacklist pcspkr'                        >"$(CreateFile /etc/modprobe.d/nobeep.conf 640)"
-printf '%s\n' '---country US,CA' >>"$(GetPackageOriginalFile reflector /etc/xdg/reflector/reflector.conf)"
+printf '%s\n' '--country US,CA' >>"$(GetPackageOriginalFile reflector /etc/xdg/reflector/reflector.conf)"
 
 # -- Disable power-saving mode for wifi, for stability --
 <<EOF cat >"$(CreateFile /etc/modprobe.d/70-rtw89.conf 640)"

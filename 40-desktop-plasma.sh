@@ -27,8 +27,6 @@ AddPackage plasma-desktop # KDE Plasma Desktop
 AddPackage plasma-nm # Plasma applet written in QML for managing network connections
 AddPackage plasma-pa # Plasma applet for audio volume management using PulseAudio
 AddPackage plasma5-integration # Qt5 Platform Theme integration plugins for the Plasma workspaces
-AddPackage sddm # QML based X11 and Wayland display manager
-AddPackage sddm-kcm # KDE Config Module for SDDM
 AddPackage spectacle # KDE screenshot capture utility
 
 AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kompare
