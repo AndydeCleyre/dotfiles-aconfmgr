@@ -58,6 +58,8 @@ AddPackage --foreign ttf-sudo # A font for programmers and command line users
 AddPackage wmctrl # Control your EWMH compliant window manager from command line
 AddPackage xclip # Command line interface to the X11 clipboard
 AddPackage xdotool # Command-line X11 automation tool
+AddPackage xf86-input-libinput # Generic input driver for the X.Org server based on libinput
+AddPackage xorg-server # Xorg X server
 
 AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust (built for X11)
 
