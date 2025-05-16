@@ -31,7 +31,6 @@ AddPackage ttf-0xproto-nerd # Patched font 0xProto from nerd fonts library
 AddPackage ttf-nerd-fonts-symbols-mono # High number of extra glyphs from popular 'iconic fonts' (monospace)
 AddPackage vokoscreen # Easy to use screencast creator
   AddPackage gst-plugins-ugly # Multimedia graph framework - ugly plugins (x264)
-AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 
 AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
 AddPackage --foreign blobdrop-git # Drag and drop files directly out of the terminal
