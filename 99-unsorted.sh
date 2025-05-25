@@ -30,4 +30,3 @@ AddPackage cargo-binstall # Binary installation for Rust projects
 AddPackage python-hjson # JSON for Humans, allows comments and is less error prone.
 
 AddPackage --foreign minecraft-launcher # Official Minecraft Launcher
-AddPackage --foreign rio-git # A hardware-accelerated GPU terminal emulator powered by WebGPU (git)
