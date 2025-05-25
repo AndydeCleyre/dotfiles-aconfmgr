@@ -30,3 +30,7 @@ AddPackage cargo-binstall # Binary installation for Rust projects
 AddPackage python-hjson # JSON for Humans, allows comments and is less error prone.
 
 AddPackage --foreign minecraft-launcher # Official Minecraft Launcher
+
+AddPackage asciiquarium # An aquarium/sea animation in ASCII art
+AddPackage fx # Command-line tool and terminal JSON viewer
+AddPackage kcharselect # Character Selector
