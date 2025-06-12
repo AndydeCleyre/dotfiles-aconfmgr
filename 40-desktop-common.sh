@@ -63,4 +63,4 @@ AddPackage xorg-server # Xorg X server
 AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust (built for X11)
 
 # -- Files --
-sed -Ei 's/^(animation = ).*/\1matrix/' "$(GetPackageOriginalFile ly /etc/ly/config.ini)"
+sed -Ei 's/^(animation = ).*/\1colormix/' "$(GetPackageOriginalFile ly /etc/ly/config.ini)"
