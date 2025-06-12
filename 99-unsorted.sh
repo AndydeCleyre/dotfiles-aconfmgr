@@ -34,3 +34,15 @@ AddPackage --foreign minecraft-launcher # Official Minecraft Launcher
 AddPackage asciiquarium # An aquarium/sea animation in ASCII art
 AddPackage fx # Command-line tool and terminal JSON viewer
 AddPackage kcharselect # Character Selector
+
+
+# Thu Jun 12 12:40:18 PM EDT 2025 - Unknown packages
+
+
+AddPackage emacs # The extensible, customizable, self-documenting real-time display editor
+AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
+AddPackage jless # A command-line pager for JSON data
+AddPackage kturtle # Educational Programming Environment
+AddPackage kubectl # A command line tool for communicating with a Kubernetes API server
+AddPackage podman-compose # A script to run docker-compose.yml using podman
+AddPackage podman-desktop # Manage Podman and other container engines from a single UI and tray.
