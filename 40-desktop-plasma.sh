@@ -20,6 +20,7 @@ AddPackage kscreen # KDE screen management software
 AddPackage merkuro # A calendar application using Akonadi to sync with external services
 AddPackage okular # Document Viewer
 AddPackage papirus-icon-theme # Papirus icon theme
+AddPackage plasma-browser-integration # Components necessary to integrate browsers into the Plasma Desktop
 AddPackage plasma-desktop # KDE Plasma Desktop
   AddPackage phonon-qt6-mpv # Phonon MPV backend for Qt6
   AddPackage power-profiles-daemon # Makes power profiles handling available over D-Bus
