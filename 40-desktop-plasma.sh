@@ -15,6 +15,7 @@ AddPackage kdenlive # A non-linear video editor for Linux using the MLT video fr
 AddPackage kdepim-addons # Addons for KDE PIM applications (calendar events in applet)
 AddPackage kdeplasma-addons # All kind of addons to improve your Plasma experience
 AddPackage kinfocenter # A utility that provides information about a computer system
+  AddPackage plasma-disks # Monitors S.M.A.R.T. capable devices for imminent failure
 AddPackage konversation # A user-friendly and fully-featured IRC client
 AddPackage kscreen # KDE screen management software
 AddPackage merkuro # A calendar application using Akonadi to sync with external services
@@ -23,6 +24,7 @@ AddPackage papirus-icon-theme # Papirus icon theme
 AddPackage plasma-browser-integration # Components necessary to integrate browsers into the Plasma Desktop
 AddPackage plasma-desktop # KDE Plasma Desktop
   AddPackage phonon-qt6-mpv # Phonon MPV backend for Qt6
+  AddPackage plasma-x11-session # Plasma X11 session
   AddPackage power-profiles-daemon # Makes power profiles handling available over D-Bus
   AddPackage xdg-desktop-portal-gtk # A backend implementation for xdg-desktop-portal using GTK (font matching)
 AddPackage plasma-nm # Plasma applet written in QML for managing network connections
