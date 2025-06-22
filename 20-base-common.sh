@@ -2,7 +2,9 @@
 AddPackage amd-ucode # Microcode update image for AMD CPUs
 AddPackage base # Minimal package set to define a basic Arch Linux installation
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
-AddPackage linux-firmware # Firmware files for Linux
+# AddPackage linux-firmware # Firmware files for Linux
+  AddPackage linux-firmware-amdgpu # Firmware files for Linux - Firmware for AMD Radeon GPUs
+  AddPackage linux-firmware-intel # Firmware files for Linux - Firmware for Intel devices
 AddPackage linux-zen # The Linux ZEN kernel and modules
 AddPackage zram-generator # Systemd unit generator for zram devices
 
