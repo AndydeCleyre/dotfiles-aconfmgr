@@ -32,10 +32,11 @@ printf '%s\n' 'andy ALL=(ALL) ALL'                      >"$(CreateFile /etc/sudo
 printf '%s\n' 'blacklist pcspkr'                        >"$(CreateFile /etc/modprobe.d/nobeep.conf 640)"
 printf '%s\n' '--country US,CA' >>"$(GetPackageOriginalFile reflector /etc/xdg/reflector/reflector.conf)"
 
+# -- realtek wifi --
 # -- Disable power-saving mode for wifi, for stability --
-<<EOF cat >"$(CreateFile /etc/modprobe.d/70-rtw89.conf 640)"
-options rtw89_pci disable_aspm_l1=y disable_aspm_l1ss=y
-options rtw89pci disable_aspm_l1=y disable_aspm_l1ss=y
-options rtw89_core disable_ps_mode=y
-options rtw89core disable_ps_mode=y
-EOF
+# <<EOF cat >"$(CreateFile /etc/modprobe.d/70-rtw89.conf 640)"
+# options rtw89_pci disable_aspm_l1=y disable_aspm_l1ss=y
+# options rtw89pci disable_aspm_l1=y disable_aspm_l1ss=y
+# options rtw89_core disable_ps_mode=y
+# options rtw89core disable_ps_mode=y
+# EOF
