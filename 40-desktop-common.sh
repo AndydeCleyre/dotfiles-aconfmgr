@@ -53,7 +53,6 @@ IgnorePackage --foreign ttf-iosevka-quasi-proportional-custom-git # A slender mo
 IgnorePackage --foreign ttf-iosevka-term-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 AddPackage --foreign ttf-0xproto # An opinionated font for software engineers
 AddPackage --foreign ttf-sudo # A font for programmers and command line users
-AddPackage --foreign zoom # Video Conferencing and Web Conferencing Service
 
 # -- X11 Desktop --
 AddPackage wmctrl # Control your EWMH compliant window manager from command line
