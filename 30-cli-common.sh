@@ -16,6 +16,7 @@ AddPackage imagemagick # An image viewing/manipulation program
 AddPackage keyd # A key remapping daemon for linux
   CopyFile /etc/keyd/default.conf 640
 AddPackage less # A terminal based program for viewing text files
+AddPackage links # A text WWW browser, similar to Lynx
 AddPackage lnav # A curses-based tool for viewing and analyzing log files
 AddPackage man-db # A utility for reading man pages
 AddPackage micro # Modern and intuitive terminal-based text editor
