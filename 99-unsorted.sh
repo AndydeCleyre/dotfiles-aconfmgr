@@ -35,3 +35,11 @@ AddPackage --foreign dmos # Djot HTML renderer with advanced features
 # not yet in AUR:
 # AddPackage --foreign tjot # A terminal pager for djot documents
 
+AddPackage asciinema # Record and share terminal sessions
+AddPackage hyperfine # A command-line benchmarking tool
+AddPackage sops # Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
+AddPackage neochat # A client for matrix, the decentralized communication protocol
+
+AddPackage --foreign agebox # Git repository encryption tool
+AddPackage --foreign asciinema-agg # asciinema gif generator
+AddPackage --foreign gophertube # Minimal terminal YouTube client with mpv, fzf, and chafa previews
