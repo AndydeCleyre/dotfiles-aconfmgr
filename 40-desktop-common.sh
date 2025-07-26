@@ -37,6 +37,8 @@ AddPackage --foreign blobdrop-git # Drag and drop files directly out of the term
 # AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
   AddPackage --foreign gtkglext # An OpenGL extension to GTK2.
 AddPackage --foreign librewolf-bin # Community-maintained fork of Firefox, focused on privacy, security and freedom.
+  AddPackage --foreign ff2mpv-rust # Native messaging host for ff2mpv written in Rust
+  AddPackage --foreign vdhcoapp # Companion application for Video DownloadHelper browser add-on
 AddPackage --foreign maplemono-ttf # Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line
 AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
 AddPackage --foreign onlyoffice-bin # An office suite that combines text, spreadsheet and presentation editors
