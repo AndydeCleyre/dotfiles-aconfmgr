@@ -28,10 +28,11 @@ CopyFile /etc/makepkg.conf.d/rust.conf
 CopyFile /etc/mkinitcpio.conf
 CopyFile /etc/pacman.conf
 
-printf '%s\n' 'LANG=en_US.UTF-8'                        >"$(CreateFile /etc/locale.conf)"
-printf '%s\n' '[device]' 'wifi.backend=iwd'             >"$(CreateFile /etc/NetworkManager/conf.d/wifi_backend.conf 640)"
-printf '%s\n' 'andy ALL=(ALL) ALL'                      >"$(CreateFile /etc/sudoers.d/00_andy 440)"
-printf '%s\n' 'blacklist pcspkr'                        >"$(CreateFile /etc/modprobe.d/nobeep.conf 640)"
+printf '%s\n' '[device]' 'wifi.backend=iwd' >"$(CreateFile /etc/NetworkManager/conf.d/wifi_backend.conf 640)"
+printf '%s\n' 'LANG=en_US.UTF-8'            >"$(CreateFile /etc/locale.conf)"
+printf '%s\n' 'blacklist pcspkr'            >"$(CreateFile /etc/modprobe.d/nobeep.conf 640)"
+printf '%s\n' 'andy ALL=(ALL) ALL'          >"$(CreateFile /etc/sudoers.d/00_andy 440)"
+printf '%s\n' 'kernel.sysrq = 1'            >"$(CreateFile /etc/sysctl.d/90-sysrq.conf 640)"
 printf '%s\n' '--country US,CA' >>"$(GetPackageOriginalFile reflector /etc/xdg/reflector/reflector.conf)"
 
 # -- realtek wifi --
