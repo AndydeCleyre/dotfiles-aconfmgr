@@ -43,3 +43,8 @@ AddPackage neochat # A client for matrix, the decentralized communication protoc
 AddPackage --foreign agebox # Git repository encryption tool
 AddPackage --foreign asciinema-agg # asciinema gif generator
 AddPackage --foreign gophertube # Minimal terminal YouTube client with mpv, fzf, and chafa previews
+
+# libxmq/xmq
+  AddPackage libxml2-legacy # XML C parser and toolkit (legacy version)
+
+AddPackage --foreign claude-code # An agentic coding tool that lives in your terminal

@@ -35,6 +35,9 @@ printf '%s\n' 'andy ALL=(ALL) ALL'          >"$(CreateFile /etc/sudoers.d/00_and
 printf '%s\n' 'kernel.sysrq = 1'            >"$(CreateFile /etc/sysctl.d/90-sysrq.conf 640)"
 printf '%s\n' '--country US,CA' >>"$(GetPackageOriginalFile reflector /etc/xdg/reflector/reflector.conf)"
 
+# -- Prevent WiFi issues after resume --
+printf '%s\n' 'options iwlmvm power_scheme=1' >"$(CreateFile /etc/modprobe.d/iwlmvm.conf 640)"
+
 # -- realtek wifi --
 # -- Disable power-saving mode for wifi, for stability --
 # <<EOF cat >"$(CreateFile /etc/modprobe.d/70-rtw89.conf 640)"

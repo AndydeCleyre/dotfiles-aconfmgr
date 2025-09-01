@@ -1,13 +1,15 @@
 AddPackage ansible-language-server # Ansible Language Server
+  AddPackage ansible-lint # Checks playbooks for practices and behaviour that could potentially be improved.
 AddPackage docker # Pack, ship and run any application as a lightweight container
-AddPackage docker-compose # Fast, isolated development environments using Docker
-AddPackage kubectl # A command line tool for communicating with a Kubernetes API server
-AddPackage minikube # A tool that makes it easy to run Kubernetes locally
-    AddPackage linux-zen-headers # Headers and scripts for building modules for the Linux ZEN kernel
-  AddPackage virtualbox # Powerful x86 virtualization for enterprise as well as home use
-AddPackage podman-compose # A script to run docker-compose.yml using podman
+  AddPackage docker-buildx # Docker CLI plugin for extended build capabilities with BuildKit
+  AddPackage docker-compose # Fast, isolated development environments using Docker
+# AddPackage kubectl # A command line tool for communicating with a Kubernetes API server
+# AddPackage minikube # A tool that makes it easy to run Kubernetes locally
+#     AddPackage linux-zen-headers # Headers and scripts for building modules for the Linux ZEN kernel
+#   AddPackage virtualbox # Powerful x86 virtualization for enterprise as well as home use
+# AddPackage podman-compose # A script to run docker-compose.yml using podman
 
-AddPackage --foreign docker-rootless-extras # Extras to run docker as non-root.
+# AddPackage --foreign docker-rootless-extras # Extras to run docker as non-root.
 AddPackage --foreign slack-desktop # Slack Desktop (Beta) for Linux
 AddPackage --foreign zoom # Video Conferencing and Web Conferencing Service
 
