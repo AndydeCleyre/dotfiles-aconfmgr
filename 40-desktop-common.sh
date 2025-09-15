@@ -41,7 +41,7 @@ AddPackage --foreign librewolf-bin # Community-maintained fork of Firefox, focus
   AddPackage --foreign ff2mpv-rust # Native messaging host for ff2mpv written in Rust
   AddPackage --foreign vdhcoapp # Companion application for Video DownloadHelper browser add-on
 AddPackage --foreign maplemono-ttf # Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line
-AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
+# AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
 AddPackage --foreign onlyoffice-bin # An office suite that combines text, spreadsheet and presentation editors
 AddPackage --foreign qview # qView is a Qt image viewer designed with minimalism and usability in mind.
   AddPackage kimageformats # Image format plugins for Qt 6
