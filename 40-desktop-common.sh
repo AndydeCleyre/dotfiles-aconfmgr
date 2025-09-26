@@ -14,8 +14,6 @@ AddPackage meld # Compare files, directories and working copies
 AddPackage mpv # a free, open source, and cross-platform media player
   AddPackage mpv-mpris # MPRIS plugin for mpv
   AddPackage pipewire-jack # Low-latency audio/video router and processor - JACK replacement
-AddPackage networkmanager # Network connection manager and user applications
-  AddPackage iwd # Internet Wireless Daemon
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar

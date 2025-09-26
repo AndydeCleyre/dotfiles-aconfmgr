@@ -28,21 +28,8 @@ CopyFile /etc/makepkg.conf.d/rust.conf
 CopyFile /etc/mkinitcpio.conf
 CopyFile /etc/pacman.conf
 
-printf '%s\n' '[device]' 'wifi.backend=iwd' >"$(CreateFile /etc/NetworkManager/conf.d/wifi_backend.conf 640)"
 printf '%s\n' 'LANG=en_US.UTF-8'            >"$(CreateFile /etc/locale.conf)"
 printf '%s\n' 'blacklist pcspkr'            >"$(CreateFile /etc/modprobe.d/nobeep.conf 640)"
 printf '%s\n' 'andy ALL=(ALL) ALL'          >"$(CreateFile /etc/sudoers.d/00_andy 440)"
 printf '%s\n' 'kernel.sysrq = 1'            >"$(CreateFile /etc/sysctl.d/90-sysrq.conf 640)"
 printf '%s\n' '--country US,CA' >>"$(GetPackageOriginalFile reflector /etc/xdg/reflector/reflector.conf)"
-
-# -- Prevent WiFi issues after resume --
-printf '%s\n' 'options iwlmvm power_scheme=1' >"$(CreateFile /etc/modprobe.d/iwlmvm.conf 640)"
-
-# -- realtek wifi --
-# -- Disable power-saving mode for wifi, for stability --
-# <<EOF cat >"$(CreateFile /etc/modprobe.d/70-rtw89.conf 640)"
-# options rtw89_pci disable_aspm_l1=y disable_aspm_l1ss=y
-# options rtw89pci disable_aspm_l1=y disable_aspm_l1ss=y
-# options rtw89_core disable_ps_mode=y
-# options rtw89core disable_ps_mode=y
-# EOF
