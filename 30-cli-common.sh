@@ -51,6 +51,7 @@ AddPackage yadm # Yet Another Dotfiles Manager
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
   AddPackage zsh-completions # Additional completion definitions for Zsh
 
+AddPackage --foreign moor # A pager designed to just do the right thing without any configuration.
 AddPackage --foreign podlet # Generate podman quadlet (systemd-like) files from a podman command
 AddPackage --foreign rescrobbled-git # Music scrobbler daemon using the MPRIS D-Bus interface.
 AddPackage --foreign yage # manage encrypted secrets in YAML files with age encryption

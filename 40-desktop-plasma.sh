@@ -16,12 +16,15 @@ AddPackage kdepim-addons # Addons for KDE PIM applications (calendar events in a
 AddPackage kdeplasma-addons # All kind of addons to improve your Plasma experience
 AddPackage kinfocenter # A utility that provides information about a computer system
   AddPackage plasma-disks # Monitors S.M.A.R.T. capable devices for imminent failure
+AddPackage kontrast # Tool to check contrast for colors that allows verifying that your colors are correctly accessible
 AddPackage konversation # A user-friendly and fully-featured IRC client
 AddPackage krita # Edit and paint images
 AddPackage kscreen # KDE screen management software
 AddPackage merkuro # A calendar application using Akonadi to sync with external services
 AddPackage okular # Document Viewer
 AddPackage papirus-icon-theme # Papirus icon theme
+AddPackage partitionmanager # A KDE utility that allows you to manage disks, partitions, and file systems
+  AddPackage exfatprogs # exFAT filesystem userspace utilities for the Linux Kernel exfat driver
 AddPackage plasma-browser-integration # Components necessary to integrate browsers into the Plasma Desktop
 AddPackage plasma-desktop # KDE Plasma Desktop
   AddPackage plasma-x11-session # Plasma X11 session
