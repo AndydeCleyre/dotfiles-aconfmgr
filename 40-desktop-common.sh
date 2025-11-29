@@ -5,7 +5,6 @@ AddPackage earlyoom # Early OOM Daemon for Linux
 AddPackage firewalld # Firewall daemon with D-Bus interface
   AddPackage python-pyqt6 # A set of Python bindings for the Qt6 toolkit
   CopyFile /etc/firewalld/zones/home.xml
-# AddPackage flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)
 AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
 AddPackage handbrake # Multithreaded video transcoder
 AddPackage kodi # A software media player and entertainment hub for digital media (gl renderer)
@@ -18,7 +17,6 @@ AddPackage mpv # a free, open source, and cross-platform media player
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
-# AddPackage rio # A hardware-accelerated GPU terminal emulator powered by WebGPU
 AddPackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 AddPackage telegram-desktop # Official Telegram Desktop client
   AddPackage hunspell-en_us # US English hunspell dictionaries
@@ -27,8 +25,6 @@ AddPackage ttf-0xproto-nerd # Patched font 0xProto from nerd fonts library
 AddPackage ttf-nerd-fonts-symbols-mono # High number of extra glyphs from popular 'iconic fonts' (monospace)
 AddPackage vokoscreen # Easy to use screencast creator
   AddPackage gst-plugins-ugly # Multimedia graph framework - ugly plugins (x264)
-# AddPackage wezterm # A GPU-accelerated cross-platform terminal emulator and multiplexer
-AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 
 AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
 AddPackage --foreign blobdrop-git # Drag and drop files directly out of the terminal
@@ -38,7 +34,6 @@ AddPackage --foreign librewolf-bin # Community-maintained fork of Firefox, focus
   AddPackage --foreign ff2mpv-rust # Native messaging host for ff2mpv written in Rust
   AddPackage --foreign vdhcoapp # Companion application for Video DownloadHelper browser add-on
 AddPackage --foreign maplemono-ttf # Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line
-# AddPackage --foreign mullvad-vpn-bin # The Mullvad VPN client app for desktop
 AddPackage --foreign onlyoffice-bin # An office suite that combines text, spreadsheet and presentation editors
 AddPackage --foreign qview # qView is a Qt image viewer designed with minimalism and usability in mind.
   AddPackage kimageformats # Image format plugins for Qt 6
@@ -62,6 +57,8 @@ AddPackage xorg-server # Xorg X server
 AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust (built for X11)
 
 # -- Files --
+
+# ly
 sed -Ei \
   -e 's/^(animation = ).*/\1matrix/' \
   -e 's/^(brightness_.*_key = ).*/\1null/' \
