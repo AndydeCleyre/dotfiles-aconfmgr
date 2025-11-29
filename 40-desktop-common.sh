@@ -19,9 +19,6 @@ AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
 # AddPackage rio # A hardware-accelerated GPU terminal emulator powered by WebGPU
-AddPackage strawberry # A music player aimed at audio enthusiasts and music collectors
-  AddPackage gst-plugin-spotify # Multimedia graph framework - spotify plugin
-  AddPackage gst-plugins-bad # Multimedia graph framework - bad plugins
 AddPackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 AddPackage telegram-desktop # Official Telegram Desktop client
   AddPackage hunspell-en_us # US English hunspell dictionaries
