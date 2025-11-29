@@ -2,7 +2,6 @@
 
 AddPackage android-tools # Android platform tools
 AddPackage jujutsu # Git-compatible VCS that is both simple and powerful
-AddPackage tgpt # AI Chatbots in terminal without needing API keys
 
 AddPackage --foreign flow-control # a programmer's text editor
 
@@ -12,8 +11,6 @@ AddPackage festival # A general multi-lingual speech synthesis system
   AddPackage festival-us # American Male/Female and Scottish English Male speaker
 
 AddPackage --foreign s6 # A small suite of programs for UNIX, designed to allow process supervision
-
-AddPackage cava # Console-based Audio Visualizer with support for multiple backends
 
 AddPackage kcolorchooser # Color Chooser
 AddPackage pastel # A command-line tool to generate, analyze, convert and manipulate colors
@@ -38,11 +35,9 @@ AddPackage --foreign dmos # Djot HTML renderer with advanced features
 AddPackage asciinema # Record and share terminal sessions
 AddPackage hyperfine # A command-line benchmarking tool
 AddPackage sops # Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
-AddPackage neochat # A client for matrix, the decentralized communication protocol
 
 AddPackage --foreign agebox # Git repository encryption tool
 AddPackage --foreign asciinema-agg # asciinema gif generator
-AddPackage --foreign gophertube # Minimal terminal YouTube client with mpv, fzf, and chafa previews
 
 # libxmq/xmq
   AddPackage libxml2-legacy # XML C parser and toolkit (legacy version)
