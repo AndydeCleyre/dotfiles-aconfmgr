@@ -69,3 +69,8 @@ sed -Ei \
   -e 's/^(brightness_.*_key = ).*/\1null/' \
   -e 's/^(clear_password = ).*/\1true/' \
   "$(GetPackageOriginalFile ly /etc/ly/config.ini)"
+
+# earlyoom
+<<EOF cat >"$(GetPackageOriginalFile earlyoom /etc/default/earlyoom)"
+EARLYOOM_ARGS="-m 5 -s 5 -r 3600 -n --avoid '(^|/)(init|systemd|Xorg|sshd)$'"
+EOF
