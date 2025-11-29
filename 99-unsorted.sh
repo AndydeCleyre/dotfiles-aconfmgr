@@ -42,4 +42,29 @@ AddPackage --foreign asciinema-agg # asciinema gif generator
 # libxmq/xmq
   AddPackage libxml2-legacy # XML C parser and toolkit (legacy version)
 
-AddPackage --foreign claude-code # An agentic coding tool that lives in your terminal
+# Wed Oct 29 02:26:08 PM EDT 2025 - Unknown packages
+
+AddPackage busybox # Utilities for rescue and embedded systems
+AddPackage dysk # Get information on your mounted filesystems
+AddPackage fish # Smart and user friendly shell intended mostly for interactive use
+AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
+AddPackage mc # A file manager that emulates Norton Commander
+AddPackage mdcat # Sophisticated Markdown rendering for the terminal
+AddPackage mkvtoolnix-gui # Set of tools to create, edit and inspect Matroska files
+AddPackage nushell # A new type of shell
+AddPackage rclone # rsync for cloud storage
+AddPackage rio # A hardware-accelerated GPU terminal emulator powered by WebGPU
+AddPackage wezterm # A GPU-accelerated cross-platform terminal emulator and multiplexer
+
+# Wed Oct 29 02:26:10 PM EDT 2025 - Unknown foreign packages
+
+AddPackage --foreign glide-browser-bin # An extensible and keyboard-focused web browser built on Firefox
+AddPackage --foreign ventoy-bin # A new bootable USB solution
+
+
+# Mon Nov 10 12:59:33 PM EST 2025 - Unknown packages
+
+AddPackage falkon # Cross-platform QtWebEngine browser
+AddPackage kamoso # A webcam recorder from KDE community
+AddPackage puzzles # Simon Tatham's Portable Puzzle Collection
+AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
