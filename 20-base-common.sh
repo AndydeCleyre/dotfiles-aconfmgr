@@ -21,7 +21,7 @@ AddPackage --foreign spleen-font # Monospaced bitmap fonts for user interface in
 
 # -- Files --
 CreateLink /etc/localtime /usr/share/zoneinfo/America/New_York
-CreateLink /etc/os-release ../usr/lib/os-release
+CreateLink /etc/os-release /usr/lib/os-release
 
 CopyFile /etc/pacman.conf
 
