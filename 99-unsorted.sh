@@ -68,3 +68,20 @@ AddPackage falkon # Cross-platform QtWebEngine browser
 AddPackage kamoso # A webcam recorder from KDE community
 AddPackage puzzles # Simon Tatham's Portable Puzzle Collection
 AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
+
+# Sat Nov 29 05:39:22 PM EST 2025 - Unknown packages
+
+AddPackage aria2 # Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink
+AddPackage croc # Easily and securely send things from one computer to another.
+AddPackage go # Core compiler tools for the Go programming language
+AddPackage mdfried # A markdown viewer for the terminal that renders images and big headers
+
+AddPackage ncdu # Disk usage analyzer with an ncurses interface
+
+AddPackage fontforge # Outline and bitmap font editor
+AddPackage --foreign bdf2psf # Debian utility to convert BDF font files to PSF format
+AddPackage --foreign otf2bdf # A command-line OpenType to BDF font converter
+AddPackage --foreign psftools # Utilities for manipulation of console fonts in PSF format
+AddPackage --foreign ttf-iosevka-fixed-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
+
+AddPackage --foreign downgrade # Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
