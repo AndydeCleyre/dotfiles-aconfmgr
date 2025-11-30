@@ -65,7 +65,7 @@ AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust 
 
 # ly
 sed -Ei \
-  -e 's/^(animation = ).*/\1matrix/' \
+  -e 's/^(animation = ).*/\1gameoflife/' \
   -e 's/^(brightness_.*_key = ).*/\1null/' \
   -e 's/^(clear_password = ).*/\1true/' \
   "$(GetPackageOriginalFile ly /etc/ly/config.ini)"
