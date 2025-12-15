@@ -32,7 +32,7 @@ AddPackage --foreign cantata # Qt6 graphical client for Music Player Daemon (MPD
   AddPackage mopidy # An extensible music server written in Python
     AddPackage --foreign mopidy-mpd # Mopidy extension for controlling playback from MPD clients
     AddPackage --foreign mopidy-spotify-git # Mopidy extension for playing music from Spotify (git version)
-      AddPackage --foreign gst-plugin-spotify # GStreamer plugins written in Rust
+      AddPackage --foreign gst-plugin-spotify-kingosticks # GStreamer Spotify plugin, for use with mopidy-spotify
 # AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
   AddPackage --foreign gtkglext # An OpenGL extension to GTK2.
 AddPackage --foreign librewolf-bin # Community-maintained fork of Firefox, focused on privacy, security and freedom.
