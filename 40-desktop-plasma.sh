@@ -32,8 +32,6 @@ AddPackage plasma-desktop # KDE Plasma Desktop
   AddPackage xdg-desktop-portal-gtk # A backend implementation for xdg-desktop-portal using GTK (font matching)
 AddPackage plasma-nm # Plasma applet written in QML for managing network connections
 AddPackage plasma-pa # Plasma applet for audio volume management using PulseAudio
-AddPackage plasma5-integration # Qt5 Platform Theme integration plugins for the Plasma workspaces
-AddPackage spectacle # KDE screenshot capture utility
 
 AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kompare
   AddPackage --foreign phonon-qt6-mpv # Phonon MPV backend for Qt6
