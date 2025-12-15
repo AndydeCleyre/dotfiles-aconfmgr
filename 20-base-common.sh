@@ -54,6 +54,12 @@ sed -Ei \
   's/^(RUSTFLAGS=").*(")$/\1-O -C target-cpu=native\2/g' \
   "$(GetPackageOriginalFile pacman /etc/makepkg.conf.d/rust.conf)"
 
+sed -Ei \
+  -e 's/(-march=)[^ ]+/\1native/g' \
+  -e 's/-mtune=generic //g' \
+  -e 's/-[fm]no-omit-(leaf-)?frame-pointer//g' \
+  "$(GetPackageOriginalFile pacman /etc/makepkg.conf.d/fortran.conf)"
+
 # systemd: boot
 <<EOF cat >"$(CreateFile /etc/pacman.d/hooks/95-systemd-boot.hook 640)"
 [Trigger]
