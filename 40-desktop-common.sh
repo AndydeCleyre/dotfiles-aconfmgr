@@ -2,6 +2,7 @@
 AddPackage bluez-obex # Object Exchange daemon for sharing content
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 AddPackage earlyoom # Early OOM Daemon for Linux
+  AddPackage systembus-notify # System bus notification daemon
 AddPackage firewalld # Firewall daemon with D-Bus interface
   AddPackage python-pyqt6 # A set of Python bindings for the Qt6 toolkit
   CopyFile /etc/firewalld/zones/home.xml
