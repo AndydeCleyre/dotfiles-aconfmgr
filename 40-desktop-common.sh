@@ -9,8 +9,8 @@ AddPackage flameshot # Powerful yet simple to use screenshot software
 AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
 AddPackage handbrake # Multithreaded video transcoder
 AddPackage kodi # A software media player and entertainment hub for digital media (gl renderer)
-AddPackage ly # TUI display manager
-  AddPackage xorg-xauth # X.Org authorization settings program
+# AddPackage ly # TUI display manager
+#   AddPackage xorg-xauth # X.Org authorization settings program
 AddPackage meld # Compare files, directories and working copies
 AddPackage mpv # a free, open source, and cross-platform media player
   AddPackage mpv-mpris # MPRIS plugin for mpv
@@ -65,13 +65,13 @@ AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust 
 # -- Files --
 
 # ly
-sed -Ei \
-  -e 's/^(animation = ).*/\1matrix/' \
-  -e 's/^(brightness_.*_key = ).*/\1null/' \
-  -e 's/^(clear_password = ).*/\1true/' \
-  -e 's/^(auto_login_session = ).*/\1plasmax11/' \
-  -e 's/^(auto_login_user = ).*/\1andy/' \
-  "$(GetPackageOriginalFile ly /etc/ly/config.ini)"
+# sed -Ei \
+#   -e 's/^(animation = ).*/\1matrix/' \
+#   -e 's/^(brightness_.*_key = ).*/\1null/' \
+#   -e 's/^(clear_password = ).*/\1true/' \
+#   -e 's/^(auto_login_session = ).*/\1plasmax11/' \
+#   -e 's/^(auto_login_user = ).*/\1andy/' \
+#   "$(GetPackageOriginalFile ly /etc/ly/config.ini)"
 
 # earlyoom
 <<EOF cat >"$(GetPackageOriginalFile earlyoom /etc/default/earlyoom)"
