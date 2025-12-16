@@ -69,6 +69,8 @@ sed -Ei \
   -e 's/^(animation = ).*/\1matrix/' \
   -e 's/^(brightness_.*_key = ).*/\1null/' \
   -e 's/^(clear_password = ).*/\1true/' \
+  -e 's/^(auto_login_session = ).*/\1plasmax11/' \
+  -e 's/^(auto_login_user = ).*/\1andy/' \
   "$(GetPackageOriginalFile ly /etc/ly/config.ini)"
 
 # earlyoom
