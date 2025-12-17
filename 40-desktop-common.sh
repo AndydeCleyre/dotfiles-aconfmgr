@@ -3,6 +3,7 @@ AddPackage bluez-obex # Object Exchange daemon for sharing content
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 AddPackage earlyoom # Early OOM Daemon for Linux
   AddPackage systembus-notify # System bus notification daemon
+AddPackage emptty # Dead simple CLI Display Manager on TTY
 AddPackage firewalld # Firewall daemon with D-Bus interface
   AddPackage python-pyqt6 # A set of Python bindings for the Qt6 toolkit
   CopyFile /etc/firewalld/zones/home.xml
@@ -10,8 +11,6 @@ AddPackage flameshot # Powerful yet simple to use screenshot software
 AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
 AddPackage handbrake # Multithreaded video transcoder
 AddPackage kodi # A software media player and entertainment hub for digital media (gl renderer)
-# AddPackage ly # TUI display manager
-#   AddPackage xorg-xauth # X.Org authorization settings program
 AddPackage meld # Compare files, directories and working copies
 AddPackage mpv # a free, open source, and cross-platform media player
   AddPackage mpv-mpris # MPRIS plugin for mpv
@@ -65,16 +64,15 @@ AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust 
 
 # -- Files --
 
-# ly
-# sed -Ei \
-#   -e 's/^(animation = ).*/\1matrix/' \
-#   -e 's/^(brightness_.*_key = ).*/\1null/' \
-#   -e 's/^(clear_password = ).*/\1true/' \
-#   -e 's/^(auto_login_session = ).*/\1plasmax11/' \
-#   -e 's/^(auto_login_user = ).*/\1andy/' \
-#   "$(GetPackageOriginalFile ly /etc/ly/config.ini)"
-
 # earlyoom
 <<EOF cat >"$(GetPackageOriginalFile earlyoom /etc/default/earlyoom)"
 EARLYOOM_ARGS="-m 5 -s 5 -r 3600 -n --avoid '(^|/)(init|systemd|Xorg|sshd)$'"
 EOF
+
+# emptty
+sed -Ei \
+  -e 's/^(# ?)?(DEFAULT_USER=).*/\2andy/' \
+  -e 's/^(# ?)?(AUTOLOGIN=).*/\2true/' \
+  -e 's/^(# ?)?(AUTOLOGIN_SESSION=).*/\2Plasma (X11)/' \
+  -e 's/^(# ?)?(VERTICAL_SELECTION=).*/\2true/' \
+  "$(GetPackageOriginalFile emptty /etc/emptty/conf)"

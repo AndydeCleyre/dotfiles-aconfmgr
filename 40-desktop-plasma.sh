@@ -42,7 +42,6 @@ AddPackage --foreign klassy-qt5 # Highly customizable binary Window Decoration, 
 AddPackage --foreign kwin-karousel # KWin tiling script with scrolling
 AddPackage --foreign libinput-gestures # Actions gestures on your touchpad using libinput
 # AddPackage --foreign plasma-hud-git # Provides a way to run menubar commands through rofi, much like the Unity 7 Heads-Up Display (HUD).
-AddPackage --foreign plasma-login-manager-git # Plasma Login provides a display manager for KDE Plasma, forked from SDDM and with an new frontend providing a greeter, wallpaper plugin integration and System Settings module (KCM).
 AddPackage --foreign plasma6-applets-kurve # Audio visualizer widget powered by CAVA for the KDE Plasma Desktop
   AddPackage cava # Console-based Audio Visualizer with support for multiple backends
 AddPackage --foreign plasma6-applets-panel-colorizer # Latte-Dock and WM status bar customization features for the default Plasma panels
