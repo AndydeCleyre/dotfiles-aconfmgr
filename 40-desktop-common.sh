@@ -4,6 +4,7 @@ AddPackage bluez-utils # Development and debugging utilities for the bluetooth p
 AddPackage earlyoom # Early OOM Daemon for Linux
   AddPackage systembus-notify # System bus notification daemon
 AddPackage emptty # Dead simple CLI Display Manager on TTY
+  AddPackage xorg-xauth # X.Org authorization settings program
 AddPackage firewalld # Firewall daemon with D-Bus interface
   AddPackage python-pyqt6 # A set of Python bindings for the Qt6 toolkit
   CopyFile /etc/firewalld/zones/home.xml
