@@ -85,3 +85,5 @@ AddPackage --foreign psftools # Utilities for manipulation of console fonts in P
 AddPackage --foreign ttf-iosevka-fixed-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 
 AddPackage --foreign downgrade # Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
+
+AddPackage harper # The Grammar Checker for Developers
