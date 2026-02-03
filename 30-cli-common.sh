@@ -22,6 +22,7 @@ AddPackage man-db # A utility for reading man pages
 AddPackage micro # Modern and intuitive terminal-based text editor
 AddPackage mise # The front-end to your dev env
   AddPackage usage # A specification for CLIs
+AddPackage moor # A pager designed to just do the right thing without any configuration.
 AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
 AddPackage ouch # A command line utility for easily compressing and decompressing files and directories
 # AddPackage pastel # A command-line tool to generate, analyze, convert and manipulate colors
@@ -49,7 +50,6 @@ AddPackage yadm # Yet Another Dotfiles Manager
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
   AddPackage zsh-completions # Additional completion definitions for Zsh
 
-AddPackage --foreign moor # A pager designed to just do the right thing without any configuration.
 AddPackage --foreign podlet # Generate podman quadlet (systemd-like) files from a podman command
 AddPackage --foreign rescrobbled-git # Music scrobbler daemon using the MPRIS D-Bus interface.
 AddPackage --foreign yage # manage encrypted secrets in YAML files with age encryption
