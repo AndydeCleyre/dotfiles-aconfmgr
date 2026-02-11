@@ -46,13 +46,10 @@ AddPackage --foreign onlyoffice-bin # An office suite that combines text, spread
 AddPackage --foreign qview # qView is a Qt image viewer designed with minimalism and usability in mind.
   AddPackage kimageformats # Image format plugins for Qt 6
     AddPackage libheif # An HEIF and AVIF file format decoder and encoder
-AddPackage --foreign ttf-fluent-emoji # fluent-emoji by Microsoft
-# AddPackage --foreign ttf-andysevka
-# TODO: make AUR pkg ttf-andysevka, containing builds of these three:
-IgnorePackage --foreign ttf-iosevka-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
-IgnorePackage --foreign ttf-iosevka-quasi-proportional-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
-IgnorePackage --foreign ttf-iosevka-term-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
 AddPackage --foreign ttf-0xproto # An opinionated font for software engineers
+AddPackage --foreign ttf-andika # A sans serif, Unicode-compliant font designed especially for literacy use
+AddPackage --foreign ttf-andysevka # A configured build of Iosevka (TTF, WOFF2; Spacings: Term, Proportional)
+AddPackage --foreign ttf-fluent-emoji # fluent-emoji by Microsoft
 AddPackage --foreign ttf-sudo # A font for programmers and command line users
 
 # -- X11 Desktop --

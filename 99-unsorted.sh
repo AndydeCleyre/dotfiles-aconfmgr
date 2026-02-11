@@ -78,12 +78,11 @@ AddPackage mdfried # A markdown viewer for the terminal that renders images and 
 
 AddPackage ncdu # Disk usage analyzer with an ncurses interface
 
+# -- bitmapper --
 AddPackage fontforge # Outline and bitmap font editor
 AddPackage --foreign bdf2psf # Debian utility to convert BDF font files to PSF format
 AddPackage --foreign otf2bdf # A command-line OpenType to BDF font converter
 AddPackage --foreign psftools # Utilities for manipulation of console fonts in PSF format
-AddPackage --foreign ttf-iosevka-fixed-custom-git # A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
-
-AddPackage --foreign downgrade # Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
+AddPackage --foreign ttf-andysevka-console # A configured build of Iosevka (Fixed spacing), intended for conversion to bitmap font
 
 AddPackage harper # The Grammar Checker for Developers
