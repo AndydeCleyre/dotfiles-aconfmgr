@@ -1,5 +1,5 @@
 # -- KDE Plasma Desktop --
-# AddPackage ark # Archiving Tool
+AddPackage ark # Archiving Tool
 AddPackage bluedevil # Integrate the Bluetooth technology within KDE workspace and applications
 AddPackage breeze-gtk # Breeze widget theme for GTK 2 and 3
 AddPackage discover # KDE and Plasma resources management GUI

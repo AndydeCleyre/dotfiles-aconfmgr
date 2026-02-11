@@ -28,7 +28,7 @@ AddPackage ttf-nerd-fonts-symbols-mono # High number of extra glyphs from popula
 AddPackage vokoscreen # Easy to use screencast creator
   AddPackage gst-plugins-ugly # Multimedia graph framework - ugly plugins (x264)
 
-AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
+# AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
 AddPackage --foreign blobdrop-git # Drag and drop files directly out of the terminal
 AddPackage --foreign cantata # Qt6 graphical client for Music Player Daemon (MPD), nullobsi fork
   AddPackage mopidy # An extensible music server written in Python
