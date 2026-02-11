@@ -86,3 +86,8 @@ AddPackage --foreign psftools # Utilities for manipulation of console fonts in P
 AddPackage --foreign ttf-andysevka-console # A configured build of Iosevka (Fixed spacing), intended for conversion to bitmap font
 
 AddPackage harper # The Grammar Checker for Developers
+
+AddPackage --foreign crush # A powerful terminal-based AI assistant for developers, providing intelligent coding assistance directly in your terminal.
+AddPackage --foreign dinit # Service monitoring / "init" system
+AddPackage --foreign krokiet # Multi functional app to find duplicates, empty folders, similar images etc. (Desktop App, Slint frontend)
+AddPackage --foreign mangowc # A Wayland compositor with smooth animation
