@@ -32,9 +32,10 @@ AddPackage vokoscreen # Easy to use screencast creator
 AddPackage --foreign blobdrop-git # Drag and drop files directly out of the terminal
 AddPackage --foreign cantata # Qt6 graphical client for Music Player Daemon (MPD), nullobsi fork
   AddPackage mopidy # An extensible music server written in Python
+    AddPackage --foreign python-mopidy-tidal-git # TIDAL music service integration for Mopidy
     AddPackage --foreign mopidy-mpd # Mopidy extension for controlling playback from MPD clients
-    AddPackage --foreign mopidy-spotify-git # Mopidy extension for playing music from Spotify (git version)
-      AddPackage --foreign gst-plugin-spotify-kingosticks # GStreamer Spotify plugin, for use with mopidy-spotify
+    # AddPackage --foreign mopidy-spotify-git # Mopidy extension for playing music from Spotify (git version)
+    #   AddPackage --foreign gst-plugin-spotify-kingosticks # GStreamer Spotify plugin, for use with mopidy-spotify
 # AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
   AddPackage --foreign gtkglext # An OpenGL extension to GTK2.
 AddPackage --foreign librewolf-bin # Community-maintained fork of Firefox, focused on privacy, security and freedom.
