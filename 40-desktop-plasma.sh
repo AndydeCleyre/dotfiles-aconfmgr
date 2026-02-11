@@ -5,6 +5,7 @@ AddPackage breeze-gtk # Breeze widget theme for GTK 2 and 3
 AddPackage discover # KDE and Plasma resources management GUI
   AddPackage fwupd # Simple daemon to allow session software to update firmware
 # AddPackage dolphin # KDE File Manager
+  AddPackage dolphin-plugins # Extra Dolphin plugins
 AddPackage ffmpegthumbs # FFmpeg-based thumbnail creator for video files
 # AddPackage flatpak-kcm # Flatpak Permissions Management KCM
 AddPackage kde-gtk-config # Syncs KDE settings to GTK applications
