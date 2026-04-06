@@ -69,9 +69,11 @@ EARLYOOM_ARGS="-m 5 -s 5 -r 3600 -n --avoid '(^|/)(init|systemd|Xorg|sshd)$'"
 EOF
 
 # emptty
+# autologin: https://github.com/tvrzna/emptty/issues/88
 sed -Ei \
   -e 's/^(# ?)?(DEFAULT_USER=).*/\2andy/' \
   -e 's/^(# ?)?(AUTOLOGIN=).*/\2true/' \
+  -e 's/^(# ?)?(COMMANDS_IN_MENU=).*/\2true/' \
   -e 's/^(# ?)?(AUTOLOGIN_SESSION=).*/\2Plasma (X11)/' \
   -e 's/^(# ?)?(VERTICAL_SELECTION=).*/\2true/' \
   "$(GetPackageOriginalFile emptty /etc/emptty/conf)"
