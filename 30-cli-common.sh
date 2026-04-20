@@ -28,6 +28,7 @@ AddPackage ouch # A command line utility for easily compressing and decompressin
 # AddPackage pastel # A command-line tool to generate, analyze, convert and manipulate colors
 AddPackage plocate # Alternative to locate, faster and compatible with mlocate's database.
 AddPackage podman # Tool and library for running OCI-based containers in pods
+  AddPackage podlet # Generate Podman Quadlet files from a Podman command, compose file, or existing object
   AddPackage qemu-user-static # QEMU static user mode emulation
   AddPackage qemu-user-static-binfmt # Binary format rules for QEMU static user mode emulation
   printf '%s\n' 'andy:100000:65536' >"$(CreateFile /etc/subgid)"
@@ -50,6 +51,5 @@ AddPackage yadm # Yet Another Dotfiles Manager
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
   AddPackage zsh-completions # Additional completion definitions for Zsh
 
-AddPackage --foreign podlet # Generate podman quadlet (systemd-like) files from a podman command
 AddPackage --foreign rescrobbled-git # Music scrobbler daemon using the MPRIS D-Bus interface.
 AddPackage --foreign yage # manage encrypted secrets in YAML files with age encryption
