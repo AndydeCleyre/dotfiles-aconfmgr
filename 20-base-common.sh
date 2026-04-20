@@ -11,6 +11,7 @@ AddPackage zram-generator # Systemd unit generator for zram devices
 # -- Arch Helpers --
 AddPackage arch-wiki-lite # Arch Wiki without HTML. 1/9 as big, easily searched & viewable on console
 AddPackage base-devel # Basic tools to build Arch Linux packages
+AddPackage kernel-modules-hook # Keeps your system fully functional after a kernel upgrade
 AddPackage pacman-contrib # Contributed scripts and tools for pacman systems (paccache.timer, pacdiff)
 AddPackage pkgfile # alpm .files metadata explorer (command-not-found)
 AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
