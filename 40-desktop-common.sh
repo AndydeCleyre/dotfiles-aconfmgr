@@ -6,7 +6,8 @@ AddPackage earlyoom # Early OOM Daemon for Linux
 AddPackage emptty # Dead simple CLI Display Manager on TTY
   AddPackage xorg-xauth # X.Org authorization settings program
 AddPackage firewalld # Firewall daemon with D-Bus interface
-  AddPackage python-pyqt6 # A set of Python bindings for the Qt6 toolkit
+  AddPackage firewall-applet # Systray applet for firewallD
+  AddPackage firewall-config # Graphical user interface for firewallD configuration
   CopyFile /etc/firewalld/zones/home.xml
 AddPackage flameshot # Powerful yet simple to use screenshot software
 AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
