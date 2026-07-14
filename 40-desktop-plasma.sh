@@ -2,8 +2,8 @@
 AddPackage ark # Archiving Tool
 AddPackage bluedevil # Integrate the Bluetooth technology within KDE workspace and applications
 AddPackage breeze-gtk # Breeze widget theme for GTK 2 and 3
-AddPackage discover # KDE and Plasma resources management GUI
-  AddPackage fwupd # Simple daemon to allow session software to update firmware
+# AddPackage discover # KDE and Plasma resources management GUI
+  # AddPackage fwupd # Simple daemon to allow session software to update firmware
 # AddPackage dolphin # KDE File Manager
   AddPackage dolphin-plugins # Extra Dolphin plugins
 AddPackage ffmpegthumbs # FFmpeg-based thumbnail creator for video files

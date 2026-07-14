@@ -29,9 +29,6 @@ AddPackage jless # A command-line pager for JSON data
 
 AddPackage --foreign dmos # Djot HTML renderer with advanced features
 
-# not yet in AUR:
-# AddPackage --foreign tjot # A terminal pager for djot documents
-
 AddPackage asciinema # Record and share terminal sessions
 AddPackage hyperfine # A command-line benchmarking tool
 AddPackage sops # Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats
@@ -40,21 +37,15 @@ AddPackage --foreign agebox # Git repository encryption tool
 AddPackage --foreign asciinema-agg # asciinema gif generator
 
 # libxmq/xmq
-  AddPackage libxml2-legacy # XML C parser and toolkit (legacy version)
+  # AddPackage libxml2-legacy # XML C parser and toolkit (legacy version)
 
 # Wed Oct 29 02:26:08 PM EDT 2025 - Unknown packages
 
-AddPackage busybox # Utilities for rescue and embedded systems
-AddPackage dysk # Get information on your mounted filesystems
-AddPackage fish # Smart and user friendly shell intended mostly for interactive use
 AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
 AddPackage mc # A file manager that emulates Norton Commander
-AddPackage mdcat # Sophisticated Markdown rendering for the terminal
 AddPackage mkvtoolnix-gui # Set of tools to create, edit and inspect Matroska files
 AddPackage nushell # A new type of shell
 AddPackage rclone # rsync for cloud storage
-AddPackage rio # A hardware-accelerated GPU terminal emulator powered by WebGPU
-AddPackage wezterm # A GPU-accelerated cross-platform terminal emulator and multiplexer
 
 # Wed Oct 29 02:26:10 PM EDT 2025 - Unknown foreign packages
 
@@ -87,7 +78,24 @@ AddPackage --foreign ttf-andysevka-console # A configured build of Iosevka (Fixe
 
 AddPackage harper # The Grammar Checker for Developers
 
-AddPackage --foreign crush # A powerful terminal-based AI assistant for developers, providing intelligent coding assistance directly in your terminal.
 AddPackage --foreign dinit # Service monitoring / "init" system
 AddPackage --foreign krokiet # Multi functional app to find duplicates, empty folders, similar images etc. (Desktop App, Slint frontend)
-AddPackage --foreign mangowc # A Wayland compositor with smooth animation
+
+AddPackage aisleriot # A collection of patience games written in guile scheme
+
+AddPackage gcompris-qt # Educational software suite comprising of numerous activities for children aged 2 to 10
+AddPackage kpat # Offers a selection of solitaire card games
+AddPackage rst2pdf # Use a text editor. Make a PDF
+
+AddPackage --foreign jdownloader2 # Download manager, written in Java, for one-click hosting sites like Rapidshare and MEGA. Uses its own updater
+AddPackage --foreign mdcat # Sophisticated Markdown rendering for the terminal
+AddPackage --foreign quadrate-git # A stack-based concatenative programming language with static typing and LLVM compilation
+
+AddPackage drawy # Handy, infinite brainstorming tool
+AddPackage haruna # Video player built with Qt/QML on top of libmpv
+# AddPackage kgpg # A GnuPG frontend
+
+AddPackage plasma-sdk # Applications useful for Plasma development
+
+AddPackage --foreign pnana # A modern terminal text editor built with FTXUI, inspired by Nano, Micro, and Sublime Text
+AddPackage --foreign tjot # A terminal renderer for the djot markup language.

@@ -1,5 +1,3 @@
-AddPackage ansible-language-server # Ansible Language Server
-  AddPackage ansible-lint # Checks playbooks for practices and behaviour that could potentially be improved.
 AddPackage cloudflared # Command-line client for Cloudflare Tunnel
 AddPackage docker # Pack, ship and run any application as a lightweight container
   AddPackage docker-buildx # Docker CLI plugin for extended build capabilities with BuildKit

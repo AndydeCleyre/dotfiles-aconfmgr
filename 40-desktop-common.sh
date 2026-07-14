@@ -3,16 +3,15 @@ AddPackage bluez-obex # Object Exchange daemon for sharing content
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 AddPackage earlyoom # Early OOM Daemon for Linux
   AddPackage systembus-notify # System bus notification daemon
-AddPackage emptty # Dead simple CLI Display Manager on TTY
-  AddPackage xorg-xauth # X.Org authorization settings program
 AddPackage firewalld # Firewall daemon with D-Bus interface
   AddPackage firewall-applet # Systray applet for firewallD
   AddPackage firewall-config # Graphical user interface for firewallD configuration
   CopyFile /etc/firewalld/zones/home.xml
-AddPackage flameshot # Powerful yet simple to use screenshot software
+# AddPackage flameshot # Powerful yet simple to use screenshot software
 AddPackage ghostty # Fast, native, feature-rich terminal emulator pushing modern features
 AddPackage handbrake # Multithreaded video transcoder
 AddPackage kodi # A software media player and entertainment hub for digital media (gl renderer)
+AddPackage ly # TUI display manager
 AddPackage meld # Compare files, directories and working copies
 AddPackage mpv # a free, open source, and cross-platform media player
   AddPackage mpv-mpris # MPRIS plugin for mpv
@@ -23,6 +22,7 @@ AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based 
 AddPackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 AddPackage telegram-desktop # Official Telegram Desktop client
   AddPackage hunspell-en_us # US English hunspell dictionaries
+  AddPackage webkit2gtk-4.1 # Web content engine for GTK
 AddPackage trash-cli # Command line trashcan (recycle bin) interface
 AddPackage ttf-0xproto-nerd # Patched font 0xProto from nerd fonts library
 AddPackage ttf-nerd-fonts-symbols-mono # High number of extra glyphs from popular 'iconic fonts' (monospace)
@@ -38,7 +38,7 @@ AddPackage --foreign cantata # Qt6 graphical client for Music Player Daemon (MPD
     # AddPackage --foreign mopidy-spotify-git # Mopidy extension for playing music from Spotify (git version)
     #   AddPackage --foreign gst-plugin-spotify-kingosticks # GStreamer Spotify plugin, for use with mopidy-spotify
 # AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
-  AddPackage --foreign gtkglext # An OpenGL extension to GTK2.
+  # AddPackage --foreign gtkglext # An OpenGL extension to GTK2.
 AddPackage --foreign librewolf-bin # Community-maintained fork of Firefox, focused on privacy, security and freedom.
   AddPackage --foreign ff2mpv-rust # Native messaging host for ff2mpv written in Rust
   AddPackage --foreign vdhcoapp # Companion application for Video DownloadHelper browser add-on
@@ -54,12 +54,16 @@ AddPackage --foreign ttf-andysevka # A configured build of Iosevka (TTF, WOFF2; 
 AddPackage --foreign ttf-fluent-emoji # fluent-emoji by Microsoft
 AddPackage --foreign ttf-sudo # A font for programmers and command line users
 
+# -- Wayland Desktop --
+AddPackage wl-clipboard # Command-line copy/paste utilities for Wayland
+
 # -- X11 Desktop --
 AddPackage wmctrl # Control your EWMH compliant window manager from command line
 AddPackage xclip # Command line interface to the X11 clipboard
 AddPackage xdotool # Command-line X11 automation tool
 AddPackage xf86-input-libinput # Generic input driver for the X.Org server based on libinput
 AddPackage xorg-server # Xorg X server
+AddPackage xorg-xauth # X.Org authorization settings program
 
 AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust (built for X11)
 
@@ -70,12 +74,10 @@ AddPackage --foreign espanso-x11 # Cross-platform Text Expander written in Rust 
 EARLYOOM_ARGS="-m 5 -s 5 -r 3600 -n --avoid '(^|/)(init|systemd|Xorg|sshd)$'"
 EOF
 
-# emptty
-# autologin: https://github.com/tvrzna/emptty/issues/88
+# ly
 sed -Ei \
-  -e 's/^(# ?)?(DEFAULT_USER=).*/\2andy/' \
-  -e 's/^(# ?)?(AUTOLOGIN=).*/\2true/' \
-  -e 's/^(# ?)?(COMMANDS_IN_MENU=).*/\2true/' \
-  -e 's/^(# ?)?(AUTOLOGIN_SESSION=).*/\2Plasma (X11)/' \
-  -e 's/^(# ?)?(VERTICAL_SELECTION=).*/\2true/' \
-  "$(GetPackageOriginalFile emptty /etc/emptty/conf)"
+  -e 's/^(animation = ).*/\1matrix/' \
+  -e 's/^(auto_login_session = ).*/\1plasmax11/' \
+  -e 's/^(auto_login_user = ).*/\1andy/' \
+  -e 's/^(clear_password = ).*/\1true/' \
+  "$(GetPackageOriginalFile ly /etc/ly/config.ini)"

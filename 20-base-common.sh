@@ -17,6 +17,7 @@ AddPackage pkgfile # alpm .files metadata explorer (command-not-found)
 AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
+AddPackage --foreign downgrade # Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 AddPackage --foreign paru # Feature packed AUR helper
 AddPackage --foreign spleen-font # Monospaced bitmap fonts for user interface including console (OTB, OTF, PSFU)
 
