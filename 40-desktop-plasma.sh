@@ -2,8 +2,6 @@
 AddPackage ark # Archiving Tool
 AddPackage bluedevil # Integrate the Bluetooth technology within KDE workspace and applications
 AddPackage breeze-gtk # Breeze widget theme for GTK 2 and 3
-# AddPackage discover # KDE and Plasma resources management GUI
-  # AddPackage fwupd # Simple daemon to allow session software to update firmware
 # AddPackage dolphin # KDE File Manager
   AddPackage dolphin-plugins # Extra Dolphin plugins
 AddPackage ffmpegthumbs # FFmpeg-based thumbnail creator for video files
@@ -44,7 +42,6 @@ AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kom
 AddPackage --foreign fluent-icon-theme-git # A Fluent design icon theme
 AddPackage --foreign gtk-nocsd-git # A small LD_PRELOAD library to disable CSD in GTK3, GTK4 and LibAdwaita apps
 AddPackage --foreign klassy # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
-AddPackage --foreign klassy-qt5 # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign kwin-karousel # KWin tiling script with scrolling
 AddPackage --foreign libinput-gestures # Actions gestures on your touchpad using libinput
 # AddPackage --foreign plasma-hud-git # Provides a way to run menubar commands through rofi, much like the Unity 7 Heads-Up Display (HUD).
