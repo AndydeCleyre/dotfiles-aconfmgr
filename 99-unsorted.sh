@@ -41,7 +41,6 @@ AddPackage --foreign asciinema-agg # asciinema gif generator
 
 # Wed Oct 29 02:26:08 PM EDT 2025 - Unknown packages
 
-AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
 AddPackage mc # A file manager that emulates Norton Commander
 AddPackage mkvtoolnix-gui # Set of tools to create, edit and inspect Matroska files
 AddPackage nushell # A new type of shell

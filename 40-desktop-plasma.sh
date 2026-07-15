@@ -28,6 +28,7 @@ AddPackage partitionmanager # A KDE utility that allows you to manage disks, par
     AddPackage bcachefs-dkms # BCacheFS filesystem utilities
       AddPackage linux-zen-headers # Headers and scripts for building modules for the Linux ZEN kernel
   AddPackage exfatprogs # exFAT filesystem userspace utilities for the Linux Kernel exfat driver
+  AddPackage ntfsprogs # NTFS userspace utilities
 AddPackage plasma-browser-integration # Components necessary to integrate browsers into the Plasma Desktop
 AddPackage plasma-desktop # KDE Plasma Desktop
   AddPackage appmenu-gtk-module # Application Menu GTK+ Module
