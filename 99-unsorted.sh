@@ -87,7 +87,6 @@ AddPackage kpat # Offers a selection of solitaire card games
 AddPackage rst2pdf # Use a text editor. Make a PDF
 
 AddPackage --foreign jdownloader2 # Download manager, written in Java, for one-click hosting sites like Rapidshare and MEGA. Uses its own updater
-AddPackage --foreign mdcat # Sophisticated Markdown rendering for the terminal
 AddPackage --foreign quadrate-git # A stack-based concatenative programming language with static typing and LLVM compilation
 
 AddPackage drawy # Handy, infinite brainstorming tool
@@ -106,4 +105,3 @@ AddPackage union # A Qt style supporting both QtQuick and QtWidgets
 AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
 
 AddPackage --foreign ledger-live-bin # Maintain your Ledger devices
-
