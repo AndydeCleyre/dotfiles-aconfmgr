@@ -37,6 +37,7 @@ AddPackage plasma-desktop # KDE Plasma Desktop
   AddPackage xdg-desktop-portal-gtk # A backend implementation for xdg-desktop-portal using GTK (font matching)
 AddPackage plasma-nm # Plasma applet written in QML for managing network connections
 AddPackage plasma-pa # Plasma applet for audio volume management using PulseAudio
+AddPackage spectacle # KDE screenshot capture utility
 
 AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kompare
   AddPackage --foreign phonon-qt6-mpv # Phonon MPV backend for Qt6
@@ -51,3 +52,4 @@ AddPackage --foreign plasma6-applets-kurve # Audio visualizer widget powered by 
   AddPackage cava # Console-based Audio Visualizer with support for multiple backends
 AddPackage --foreign plasma6-applets-panel-colorizer # Latte-Dock and WM status bar customization features for the default Plasma panels
 AddPackage --foreign plasma6-applets-plasmusic-toolbar # Widget that shows currently playing song information and provide playback controls.
+AddPackage --foreign sera-git # Command-line updater for KDE Plasma addons, widgets, plasmoids, or plugins.
