@@ -98,3 +98,12 @@ AddPackage plasma-sdk # Applications useful for Plasma development
 
 AddPackage --foreign pnana # A modern terminal text editor built with FTXUI, inspired by Nano, Micro, and Sublime Text
 AddPackage --foreign tjot # A terminal renderer for the djot markup language.
+
+AddPackage lowdown # A simple Markdown translator
+
+AddPackage union # A Qt style supporting both QtQuick and QtWidgets
+
+AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
+
+AddPackage --foreign ledger-live-bin # Maintain your Ledger devices
+
