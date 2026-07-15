@@ -21,7 +21,6 @@ AddPackage lnav # A curses-based tool for viewing and analyzing log files
 AddPackage man-db # A utility for reading man pages
 AddPackage micro # Modern and intuitive terminal-based text editor
 AddPackage mise # The front-end to your dev env
-  AddPackage usage # A specification for CLIs
 AddPackage moor # A pager designed to just do the right thing without any configuration.
 AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
 AddPackage ouch # A command line utility for easily compressing and decompressing files and directories
