@@ -1,6 +1,8 @@
 AddPackage networkmanager # Network connection manager and user applications
   AddPackage iwd # Internet Wireless Daemon
 
+AddPackage --foreign ivpn-ui # IVPN - Secure VPN for Privacy
+
 printf '%s\n' '[device]' 'wifi.backend=iwd' >"$(CreateFile /etc/NetworkManager/conf.d/wifi_backend.conf 640)"
 
 # -- Disable power-saving, for stability, and to prevent issues after resume --
