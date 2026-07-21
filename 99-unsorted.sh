@@ -3,7 +3,7 @@
 AddPackage android-tools # Android platform tools
 AddPackage jujutsu # Git-compatible VCS that is both simple and powerful
 
-AddPackage --foreign flow-control # a programmer's text editor
+# AddPackage --foreign flow-control # a programmer's text editor
 
 AddPackage pkgstats # Submit a list of installed packages to the Arch Linux project
 
@@ -57,7 +57,8 @@ AddPackage --foreign ventoy-bin # A new bootable USB solution
 AddPackage falkon # Cross-platform QtWebEngine browser
 AddPackage kamoso # A webcam recorder from KDE community
 AddPackage puzzles # Simon Tatham's Portable Puzzle Collection
-AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
+# AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
+AddPackage gram # A code editor for humanoid apes and grumpy toads
 
 # Sat Nov 29 05:39:22 PM EST 2025 - Unknown packages
 

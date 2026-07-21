@@ -22,7 +22,8 @@ AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based 
 AddPackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 AddPackage telegram-desktop # Official Telegram Desktop client
   AddPackage hunspell-en_us # US English hunspell dictionaries
-  AddPackage webkit2gtk-4.1 # Web content engine for GTK
+  # AddPackage webkit2gtk-4.1 # Web content engine for GTK
+  AddPackage webkitgtk-6.0 # Web content engine for GTK
 AddPackage trash-cli # Command line trashcan (recycle bin) interface
 AddPackage ttf-0xproto-nerd # Patched font 0xProto from nerd fonts library
 AddPackage ttf-nerd-fonts-symbols-mono # High number of extra glyphs from popular 'iconic fonts' (monospace)
