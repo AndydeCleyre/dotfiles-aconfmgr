@@ -45,6 +45,7 @@ AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kom
 AddPackage --foreign fluent-icon-theme # Fluent design icon theme
 AddPackage --foreign gtk-nocsd-git # A small LD_PRELOAD library to disable CSD in GTK3, GTK4 and LibAdwaita apps
 AddPackage --foreign inputactions-kwin # Bind keyboard, mouse, touchpad and touchscreen actions to system actions
+  AddPackage --foreign inputactions-kwin-alpm-hook # Send a configurable reminder to rebuild inputactions-kwin (unofficial)
 AddPackage --foreign kdotool # A xdotool clone for KDE Wayland
 # AddPackage --foreign klassy # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign kwin-karousel # KWin tiling script with scrolling

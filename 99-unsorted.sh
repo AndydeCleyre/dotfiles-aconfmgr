@@ -119,5 +119,3 @@ AddPackage --foreign keybase # CLI tool for GPG with keybase.io
 AddPackage --foreign riptide # A terminal UI music player for Tidal, built with Rust
 AddPackage --foreign ttf-ioskeley-mono-unhinted # Iosevka configuration to mimic Berkeley Mono - unhinted TTF version
 AddPackage --foreign ttf-openmoji # Open source emojis for designers, developers and everyone else!
-
-
