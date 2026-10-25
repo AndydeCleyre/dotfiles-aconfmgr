@@ -1,5 +1,6 @@
 # -- KDE Plasma Desktop --
 AddPackage ark # Archiving Tool
+  AddPackage unrar # The RAR uncompression program
 AddPackage bluedevil # Integrate the Bluetooth technology within KDE workspace and applications
 AddPackage breeze-gtk # Breeze widget theme for GTK 2 and 3
 # AddPackage dolphin # KDE File Manager
@@ -10,16 +11,18 @@ AddPackage kde-gtk-config # Syncs KDE settings to GTK applications
 AddPackage kdeconnect # Adds communication between KDE and your smartphone
 AddPackage kdegraphics-thumbnailers # Thumbnailers for various graphics file formats
 AddPackage kdenlive # A non-linear video editor for Linux using the MLT video framework
-AddPackage kdepim-addons # Addons for KDE PIM applications (calendar events in applet)
+# AddPackage kdepim-addons # Addons for KDE PIM applications (calendar events in applet)
 AddPackage kdeplasma-addons # All kind of addons to improve your Plasma experience
 AddPackage kinfocenter # A utility that provides information about a computer system
   AddPackage plasma-disks # Monitors S.M.A.R.T. capable devices for imminent failure
+AddPackage klassy # Highly customizable theming for the KDE Plasma desktop
 AddPackage kontrast # Tool to check contrast for colors that allows verifying that your colors are correctly accessible
 AddPackage konversation # A user-friendly and fully-featured IRC client
 AddPackage krita # Edit and paint images
 AddPackage kscreen # KDE screen management software
-AddPackage merkuro # A calendar application using Akonadi to sync with external services
+# AddPackage merkuro # A calendar application using Akonadi to sync with external services
 AddPackage okular # Document Viewer
+AddPackage oxygen # KDE Oxygen style
 AddPackage papirus-icon-theme # Papirus icon theme
 AddPackage partitionmanager # A KDE utility that allows you to manage disks, partitions, and file systems
   AddPackage bcachefs-tools # BCacheFS filesystem utilities
@@ -30,23 +33,24 @@ AddPackage partitionmanager # A KDE utility that allows you to manage disks, par
 AddPackage plasma-browser-integration # Components necessary to integrate browsers into the Plasma Desktop
 AddPackage plasma-desktop # KDE Plasma Desktop
   AddPackage appmenu-gtk-module # Application Menu GTK+ Module
-  AddPackage plasma-x11-session # Plasma X11 session
   AddPackage power-profiles-daemon # Makes power profiles handling available over D-Bus
   AddPackage xdg-desktop-portal-gtk # A backend implementation for xdg-desktop-portal using GTK (font matching)
 AddPackage plasma-nm # Plasma applet written in QML for managing network connections
 AddPackage plasma-pa # Plasma applet for audio volume management using PulseAudio
 AddPackage spectacle # KDE screenshot capture utility
+AddPackage ydotool # Generic command-line automation tool (no X!)
 
 AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kompare
   AddPackage --foreign phonon-qt6-mpv # Phonon MPV backend for Qt6
-AddPackage --foreign fluent-icon-theme-git # A Fluent design icon theme
+AddPackage --foreign fluent-icon-theme # Fluent design icon theme
 AddPackage --foreign gtk-nocsd-git # A small LD_PRELOAD library to disable CSD in GTK3, GTK4 and LibAdwaita apps
-AddPackage --foreign klassy # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
+AddPackage --foreign inputactions-kwin # Bind keyboard, mouse, touchpad and touchscreen actions to system actions
+AddPackage --foreign kdotool # A xdotool clone for KDE Wayland
+# AddPackage --foreign klassy # Highly customizable binary Window Decoration, Application Style and Global Theme plugin for recent versions of the KDE Plasma desktop.
 AddPackage --foreign kwin-karousel # KWin tiling script with scrolling
-AddPackage --foreign libinput-gestures # Actions gestures on your touchpad using libinput
 # AddPackage --foreign plasma-hud-git # Provides a way to run menubar commands through rofi, much like the Unity 7 Heads-Up Display (HUD).
-AddPackage --foreign plasma6-applets-kurve # Audio visualizer widget powered by CAVA for the KDE Plasma Desktop
-  AddPackage cava # Console-based Audio Visualizer with support for multiple backends
+AddPackage --foreign plasma6-applets-eventcalendar # KDE Plasma 6 plasmoid for a calendar+agenda with weather that syncs to Google Calendar
 AddPackage --foreign plasma6-applets-panel-colorizer # Latte-Dock and WM status bar customization features for the default Plasma panels
 AddPackage --foreign plasma6-applets-plasmusic-toolbar # Widget that shows currently playing song information and provide playback controls.
 AddPackage --foreign sera-git # Command-line updater for KDE Plasma addons, widgets, plasmoids, or plugins.
+

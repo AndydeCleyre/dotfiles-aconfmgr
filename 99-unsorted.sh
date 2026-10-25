@@ -96,13 +96,28 @@ AddPackage haruna # Video player built with Qt/QML on top of libmpv
 
 AddPackage plasma-sdk # Applications useful for Plasma development
 
-AddPackage --foreign pnana # A modern terminal text editor built with FTXUI, inspired by Nano, Micro, and Sublime Text
 AddPackage --foreign tjot # A terminal renderer for the djot markup language.
 
 AddPackage lowdown # A simple Markdown translator
 
 AddPackage union # A Qt style supporting both QtQuick and QtWidgets
 
-AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
-
 AddPackage --foreign ledger-live-bin # Maintain your Ledger devices
+
+AddPackage audacity # A program that lets you manipulate digital audio waveforms
+AddPackage ffmpegthumbnailer # Lightweight video thumbnailer that can be used by file managers
+
+AddPackage motion # Monitor and record video signals from many types of cameras
+# AddPackage otf-monaspace # An innovative superfamily of fonts for code, by GitHub
+
+AddPackage --foreign bitsnpicas # Bitmap and Emoji Font Creation and Conversion Tools.
+AddPackage --foreign fnt # The missing font manager for Linux
+AddPackage --foreign gfont # Browse and install google fonts from terminal
+AddPackage --foreign high-tide # Linux client for TIDAL streaming service
+AddPackage --foreign hiresti # High-Res TIDAL player for Linux with bit-perfect playback support
+AddPackage --foreign keybase # CLI tool for GPG with keybase.io
+AddPackage --foreign riptide # A terminal UI music player for Tidal, built with Rust
+AddPackage --foreign ttf-ioskeley-mono-unhinted # Iosevka configuration to mimic Berkeley Mono - unhinted TTF version
+AddPackage --foreign ttf-openmoji # Open source emojis for designers, developers and everyone else!
+
+
