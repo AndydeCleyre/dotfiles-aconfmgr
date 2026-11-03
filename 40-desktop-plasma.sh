@@ -42,7 +42,7 @@ AddPackage ydotool # Generic command-line automation tool (no X!)
 
 AddPackage --foreign dolphin-meld # KDE File Manager, using Meld rather than Kompare
   AddPackage --foreign phonon-qt6-mpv # Phonon MPV backend for Qt6
-AddPackage --foreign fluent-icon-theme # Fluent design icon theme
+AddPackage --foreign fluent-icon-theme-git # A Fluent design icon theme
 AddPackage --foreign gtk-nocsd-git # A small LD_PRELOAD library to disable CSD in GTK3, GTK4 and LibAdwaita apps
 AddPackage --foreign inputactions-kwin # Bind keyboard, mouse, touchpad and touchscreen actions to system actions
   AddPackage --foreign inputactions-kwin-alpm-hook # Send a configurable reminder to rebuild inputactions-kwin (unofficial)
