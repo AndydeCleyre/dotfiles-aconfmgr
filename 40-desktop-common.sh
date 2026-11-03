@@ -38,7 +38,6 @@ AddPackage --foreign espanso-wayland # Cross-platform Text Expander written in R
 # AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
 # AddPackage librewolf # Community-maintained fork of Firefox, focused on privacy, security and freedom
   AddPackage --foreign ff2mpv-rust # Native messaging host for ff2mpv written in Rust
-  AddPackage --foreign vdhcoapp # Companion application for Video DownloadHelper browser add-on
 AddPackage --foreign maplemono-ttf # Open source monospace font with round corner, ligatures and Nerd-Font for IDE and command line
 AddPackage --foreign onlyoffice-bin # An office suite that combines text, spreadsheet and presentation editors
 AddPackage --foreign qview # qView is a Qt image viewer designed with minimalism and usability in mind.
