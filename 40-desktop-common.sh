@@ -34,12 +34,6 @@ AddPackage wl-clipboard # Command-line copy/paste utilities for Wayland
 
 AddPackage --foreign arqiver # Simple Qt archive manager based on libarchive
 AddPackage --foreign blobdrop-git # Drag and drop files directly out of the terminal
-AddPackage --foreign cantata # Qt6 graphical client for Music Player Daemon (MPD), nullobsi fork
-  # AddPackage mopidy # An extensible music server written in Python
-  #   AddPackage --foreign python-mopidy-tidal-git # TIDAL music service integration for Mopidy
-  #   AddPackage --foreign mopidy-mpd # Mopidy extension for controlling playback from MPD clients
-    # AddPackage --foreign mopidy-spotify-git # Mopidy extension for playing music from Spotify (git version)
-    #   AddPackage --foreign gst-plugin-spotify-kingosticks # GStreamer Spotify plugin, for use with mopidy-spotify
 AddPackage --foreign espanso-wayland # Cross-platform Text Expander written in Rust (built for Wayland)
 # AddPackage --foreign factor # A general purpose, dynamically typed, stack-based programming language.
 # AddPackage librewolf # Community-maintained fork of Firefox, focused on privacy, security and freedom
@@ -50,7 +44,7 @@ AddPackage --foreign onlyoffice-bin # An office suite that combines text, spread
 AddPackage --foreign qview # qView is a Qt image viewer designed with minimalism and usability in mind.
   AddPackage kimageformats # Image format plugins for Qt 6
     AddPackage libheif # An HEIF and AVIF file format decoder and encoder
-AddPackage --foreign tonearm # Unofficial native GTK4 / Adwaita music streaming client for TIDAL
+AddPackage --foreign sonora # A native music streaming client, built with Rust and GPUI
 AddPackage --foreign ttf-0xproto # An opinionated font for software engineers
 AddPackage --foreign ttf-andika # A sans serif, Unicode-compliant font designed especially for literacy use
 AddPackage --foreign ttf-andysevka # A configured build of Iosevka (TTF, WOFF2; Spacings: Term, Proportional)
