@@ -107,15 +107,10 @@ AddPackage --foreign ledger-live-bin # Maintain your Ledger devices
 AddPackage audacity # A program that lets you manipulate digital audio waveforms
 AddPackage ffmpegthumbnailer # Lightweight video thumbnailer that can be used by file managers
 
-AddPackage motion # Monitor and record video signals from many types of cameras
 # AddPackage otf-monaspace # An innovative superfamily of fonts for code, by GitHub
 
 AddPackage --foreign bitsnpicas # Bitmap and Emoji Font Creation and Conversion Tools.
 AddPackage --foreign fnt # The missing font manager for Linux
 AddPackage --foreign gfont # Browse and install google fonts from terminal
-AddPackage --foreign high-tide # Linux client for TIDAL streaming service
-AddPackage --foreign hiresti # High-Res TIDAL player for Linux with bit-perfect playback support
-AddPackage --foreign keybase # CLI tool for GPG with keybase.io
-AddPackage --foreign riptide # A terminal UI music player for Tidal, built with Rust
 AddPackage --foreign ttf-ioskeley-mono-unhinted # Iosevka configuration to mimic Berkeley Mono - unhinted TTF version
 AddPackage --foreign ttf-openmoji # Open source emojis for designers, developers and everyone else!
